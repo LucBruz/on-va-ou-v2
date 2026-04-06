@@ -1,0 +1,5342 @@
+[
+    {
+        "name": "Paris",
+        "country": "FR",
+        "lat": 48.85341,
+        "long": 2.3488,
+        "temperature_moyenne": 17.6,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 17.7
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 2,
+                        "temperature": 23.3
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 22.7
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 45,
+                        "temperature": 24.2
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 15.4
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 61,
+                        "temperature": 19.8
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 12.7
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 3,
+                        "temperature": 20.7
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 21.2
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 1,
+                        "temperature": 21.3
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 0,
+                        "temperature": 16.3
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 9.7
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 10.4
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 11.4
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Nice",
+        "country": "FR",
+        "lat": 43.70313,
+        "long": 7.26608,
+        "temperature_moyenne": 17.3,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 16.5
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 16.7
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 1,
+                        "temperature": 17.8
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 2,
+                        "temperature": 17.7
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 17.2
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 16.1
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 3,
+                        "temperature": 17.9
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 3,
+                        "temperature": 17.7
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 1,
+                        "temperature": 19.8
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 1,
+                        "temperature": 20.8
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 2,
+                        "temperature": 19.5
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 53,
+                        "temperature": 17.0
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 51,
+                        "temperature": 12.4
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 15.6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Lyon",
+        "country": "FR",
+        "lat": 45.74846,
+        "long": 4.84671,
+        "temperature_moyenne": 19.2,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 2,
+                        "temperature": 24.2
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 1,
+                        "temperature": 25.6
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 1,
+                        "temperature": 25.6
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 45,
+                        "temperature": 25.5
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 20.2
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 2,
+                        "temperature": 23.4
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 13.5
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 20.6
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 51,
+                        "temperature": 17.6
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 1,
+                        "temperature": 20.6
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 0,
+                        "temperature": 19.6
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 9.5
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 7.3
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 16.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Bordeaux",
+        "country": "FR",
+        "lat": 44.84044,
+        "long": -0.5805,
+        "temperature_moyenne": 20.9,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 2,
+                        "temperature": 28.3
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 26.7
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 25.8
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 27.7
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 2,
+                        "temperature": 25.6
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 80,
+                        "temperature": 22.3
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 13.5
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 51,
+                        "temperature": 13.0
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 17.6
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 21.5
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 23.1
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 14.8
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 0,
+                        "temperature": 14.1
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 18.6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Marseille",
+        "country": "FR",
+        "lat": 43.29695,
+        "long": 5.38107,
+        "temperature_moyenne": 19.3,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 21.0
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 0,
+                        "temperature": 21.9
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 1,
+                        "temperature": 22.2
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 1,
+                        "temperature": 19.4
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 2,
+                        "temperature": 28.0
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 22.9
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 3,
+                        "temperature": 20.4
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 16.6
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 17.3
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 19.4
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 18.7
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 0,
+                        "temperature": 15.0
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 2,
+                        "temperature": 13.3
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 13.7
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Strasbourg",
+        "country": "FR",
+        "lat": 48.58392,
+        "long": 7.74553,
+        "temperature_moyenne": 15.5,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 17.9
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 20.1
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 1,
+                        "temperature": 20.7
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 19.9
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 14.0
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 16.9
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 13.5
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 20.0
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 19.7
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 0,
+                        "temperature": 20.6
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 15.6
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 51,
+                        "temperature": 8.6
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 51,
+                        "temperature": 3.8
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 51,
+                        "temperature": 6.2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Lille",
+        "country": "FR",
+        "lat": 50.63297,
+        "long": 3.05858,
+        "temperature_moyenne": 14.6,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 15.4
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 2,
+                        "temperature": 20.4
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 22.3
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 51,
+                        "temperature": 19.2
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 12.5
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 16.3
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 0,
+                        "temperature": 14.0
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 2,
+                        "temperature": 12.8
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 51,
+                        "temperature": 12.3
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 14.2
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 51,
+                        "temperature": 13.9
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 53,
+                        "temperature": 9.4
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 51,
+                        "temperature": 11.8
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 55,
+                        "temperature": 10.4
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Toulouse",
+        "country": "FR",
+        "lat": 43.60426,
+        "long": 1.44367,
+        "temperature_moyenne": 19.5,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 26.1
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 22.1
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 2,
+                        "temperature": 25.0
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 27.0
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 45,
+                        "temperature": 25.5
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 80,
+                        "temperature": 22.5
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 11.9
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 80,
+                        "temperature": 11.6
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 14.8
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 18.2
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 21.6
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 15.4
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 0,
+                        "temperature": 14.4
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 17.1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Nantes",
+        "country": "FR",
+        "lat": 47.21725,
+        "long": -1.55336,
+        "temperature_moyenne": 18.1,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 0,
+                        "temperature": 23.0
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 25.3
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 25.8
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 25.6
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 20.5
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 80,
+                        "temperature": 19.6
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 3,
+                        "temperature": 14.1
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 10.9
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 16.5
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 18.3
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 17.0
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 12.5
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 10.7
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 14.1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Montpellier",
+        "country": "FR",
+        "lat": 43.61093,
+        "long": 3.87635,
+        "temperature_moyenne": 21.4,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 45,
+                        "temperature": 21.5
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 45,
+                        "temperature": 19.8
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 0,
+                        "temperature": 22.6
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 28.9
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 27.2
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 19.7
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 3,
+                        "temperature": 15.5
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 3,
+                        "temperature": 19.9
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 21.8
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 25.1
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 25.0
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 17.8
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 18.0
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 16.2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Biarritz",
+        "country": "FR",
+        "lat": 43.48055,
+        "long": -1.55684,
+        "temperature_moyenne": 18.2,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 26.6
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 27.4
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 26.5
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 19.5
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 20.8
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 61,
+                        "temperature": 16.7
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 10.9
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 3,
+                        "temperature": 11.0
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 11.9
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 15.4
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 18.4
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 16.9
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 13.0
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 19.8
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "La Rochelle",
+        "country": "FR",
+        "lat": 46.16308,
+        "long": -1.15222,
+        "temperature_moyenne": 17.7,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 0,
+                        "temperature": 25.6
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 25.6
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 23.7
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 22.3
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 18.3
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 80,
+                        "temperature": 16.2
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 3,
+                        "temperature": 12.1
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 3,
+                        "temperature": 11.6
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 15.1
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 19.0
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 19.5
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 12.7
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 11.2
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 15.1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Rennes",
+        "country": "FR",
+        "lat": 48.11198,
+        "long": -1.67429,
+        "temperature_moyenne": 17.2,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 2,
+                        "temperature": 21.2
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 24.8
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 25.8
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 23.3
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 19.7
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 19.9
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 14.7
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 10.6
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 14.9
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 16.0
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 15.8
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 12.2
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 8.8
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 12.8
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Annecy",
+        "country": "FR",
+        "lat": 45.90878,
+        "long": 6.12565,
+        "temperature_moyenne": 18.2,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 23.4
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 2,
+                        "temperature": 24.7
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 1,
+                        "temperature": 23.6
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 23.7
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 20.8
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 1,
+                        "temperature": 21.6
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 17.1
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 15.8
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 18.4
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 18.3
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 18.3
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 85,
+                        "temperature": 7.6
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 71,
+                        "temperature": 6.0
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 15.1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Grenoble",
+        "country": "FR",
+        "lat": 45.17869,
+        "long": 5.71479,
+        "temperature_moyenne": 19.3,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 25.9
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 2,
+                        "temperature": 25.4
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 25.1
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 1,
+                        "temperature": 25.2
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 21.7
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 2,
+                        "temperature": 24.3
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 17.0
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 19.4
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 18.4
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 19.9
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 51,
+                        "temperature": 20.0
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 73,
+                        "temperature": 9.3
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 73,
+                        "temperature": 4.6
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 14.4
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Avignon",
+        "country": "FR",
+        "lat": 43.94834,
+        "long": 4.80892,
+        "temperature_moyenne": 21.6,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 45,
+                        "temperature": 24.5
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 45,
+                        "temperature": 23.3
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 0,
+                        "temperature": 25.1
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 45,
+                        "temperature": 28.4
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 0,
+                        "temperature": 25.7
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 23.0
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 3,
+                        "temperature": 18.7
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 20.3
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 21.6
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 22.4
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 22.4
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 15.2
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 12.6
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 18.9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cannes",
+        "country": "FR",
+        "lat": 43.55135,
+        "long": 7.01275,
+        "temperature_moyenne": 17.5,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 18.8
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 17.2
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 19.1
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 19.0
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 45,
+                        "temperature": 18.2
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 45,
+                        "temperature": 14.1
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 3,
+                        "temperature": 16.0
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 3,
+                        "temperature": 17.4
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 20.0
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 21.3
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 19.9
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 53,
+                        "temperature": 16.3
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 13.1
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 15.2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Saint-Tropez",
+        "country": "FR",
+        "lat": 43.26764,
+        "long": 6.64049,
+        "temperature_moyenne": 19.1,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 21.4
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 20.5
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 17.7
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 16.0
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 20.0
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 17.4
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 3,
+                        "temperature": 18.0
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 3,
+                        "temperature": 17.6
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 20.8
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 22.2
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 22.5
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 20.6
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 15.3
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 17.5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Dijon",
+        "country": "FR",
+        "lat": 47.31667,
+        "long": 5.01667,
+        "temperature_moyenne": 16.3,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 20.5
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 2,
+                        "temperature": 24.1
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 2,
+                        "temperature": 23.5
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 24.0
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 15.4
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 18.9
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 80,
+                        "temperature": 11.1
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 80,
+                        "temperature": 12.9
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 51,
+                        "temperature": 16.5
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 19.2
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 16.7
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 51,
+                        "temperature": 7.6
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 6.9
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 11.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Reims",
+        "country": "FR",
+        "lat": 49.26526,
+        "long": 4.02853,
+        "temperature_moyenne": 15.6,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 45,
+                        "temperature": 15.1
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 1,
+                        "temperature": 19.9
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 20.8
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 21.7
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 13.3
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 16.9
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 10.2
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 51,
+                        "temperature": 19.4
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 1,
+                        "temperature": 18.1
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 20.2
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 13.9
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 9.2
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 45,
+                        "temperature": 7.3
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 45,
+                        "temperature": 12.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Rouen",
+        "country": "FR",
+        "lat": 49.44313,
+        "long": 1.09932,
+        "temperature_moyenne": 16.2,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 45,
+                        "temperature": 16.5
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 0,
+                        "temperature": 22.3
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 23.0
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 21.9
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 14.5
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 61,
+                        "temperature": 20.2
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 13.1
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 51,
+                        "temperature": 19.5
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 15.3
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 1,
+                        "temperature": 17.2
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 14.3
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 2,
+                        "temperature": 9.8
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 8.8
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 10.6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Nancy",
+        "country": "FR",
+        "lat": 48.68439,
+        "long": 6.18496,
+        "temperature_moyenne": 15.0,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 16.6
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 2,
+                        "temperature": 20.1
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 20.2
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 20.4
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 12.9
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 2,
+                        "temperature": 17.2
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 8.7
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 51,
+                        "temperature": 18.9
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 19.5
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 20.2
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 15.6
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 51,
+                        "temperature": 8.4
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 45,
+                        "temperature": 3.9
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 51,
+                        "temperature": 8.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Nimes",
+        "country": "FR",
+        "lat": 43.83665,
+        "long": 4.35788,
+        "temperature_moyenne": 21.8,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 45,
+                        "temperature": 24.1
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 45,
+                        "temperature": 22.4
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 1,
+                        "temperature": 24.8
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 1,
+                        "temperature": 27.6
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 0,
+                        "temperature": 26.7
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 22.2
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 3,
+                        "temperature": 18.9
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 51,
+                        "temperature": 20.5
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 21.6
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 23.9
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 23.5
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 15.4
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 16.0
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 18.1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Arles",
+        "country": "FR",
+        "lat": 43.67681,
+        "long": 4.63031,
+        "temperature_moyenne": 20.9,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 45,
+                        "temperature": 22.6
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 45,
+                        "temperature": 21.5
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 0,
+                        "temperature": 23.5
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 45,
+                        "temperature": 26.7
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 26.6
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 20.4
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 3,
+                        "temperature": 19.4
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 19.1
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 21.9
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 22.4
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 22.0
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 15.7
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 13.7
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 16.7
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Metz",
+        "country": "FR",
+        "lat": 49.11911,
+        "long": 6.17269,
+        "temperature_moyenne": 15.1,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 45,
+                        "temperature": 15.6
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 2,
+                        "temperature": 19.5
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 19.9
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 20.0
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 13.0
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 16.0
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 9.0
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 18.0
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 20.7
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 21.4
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 15.2
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 8.5
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 51,
+                        "temperature": 5.5
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 51,
+                        "temperature": 9.6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Carcassonne",
+        "country": "FR",
+        "lat": 43.21649,
+        "long": 2.34863,
+        "temperature_moyenne": 18.5,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 21.6
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 19.6
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 1,
+                        "temperature": 21.7
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 28.2
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 2,
+                        "temperature": 27.0
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 80,
+                        "temperature": 18.9
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 80,
+                        "temperature": 12.9
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 10.9
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 14.5
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 18.7
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 20.9
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 15.7
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 14.5
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 13.5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Versailles",
+        "country": "FR",
+        "lat": 48.80359,
+        "long": 2.13424,
+        "temperature_moyenne": 16.9,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 17.2
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 0,
+                        "temperature": 22.6
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 22.2
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 23.6
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 15.1
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 61,
+                        "temperature": 19.3
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 12.2
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 3,
+                        "temperature": 18.8
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 19.7
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 20.5
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 15.7
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 9.0
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 9.7
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 10.8
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Tours",
+        "country": "FR",
+        "lat": 47.39484,
+        "long": 0.70398,
+        "temperature_moyenne": 18.8,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 1,
+                        "temperature": 22.2
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 1,
+                        "temperature": 26.1
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 26.3
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 25.8
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 19.4
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 80,
+                        "temperature": 23.3
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 13.4
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 45,
+                        "temperature": 12.7
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 18.5
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 51,
+                        "temperature": 20.5
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 17.3
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 11.9
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 11.2
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 15.2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Amiens",
+        "country": "FR",
+        "lat": 49.9,
+        "long": 2.3,
+        "temperature_moyenne": 15.0,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 15.9
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 21.0
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 22.4
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 20.4
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 13.1
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 15.8
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 1,
+                        "temperature": 14.4
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 2,
+                        "temperature": 12.9
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 13.6
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 14.6
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 1,
+                        "temperature": 14.4
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 51,
+                        "temperature": 10.4
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 51,
+                        "temperature": 11.8
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 51,
+                        "temperature": 9.7
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Aix-en-Provence",
+        "country": "FR",
+        "lat": 43.5283,
+        "long": 5.44973,
+        "temperature_moyenne": 20.9,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 2,
+                        "temperature": 22.4
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 0,
+                        "temperature": 22.6
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 0,
+                        "temperature": 23.5
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 25.4
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 26.9
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 21.8
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 3,
+                        "temperature": 19.9
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 19.7
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 21.8
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 23.2
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 20.7
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 14.1
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 14.2
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 17.1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Bruxelles",
+        "country": "BE",
+        "lat": 50.85045,
+        "long": 4.34878,
+        "temperature_moyenne": 14.4,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 15.6
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 19.7
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 22.4
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 51,
+                        "temperature": 19.7
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 11.1
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 15.9
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 0,
+                        "temperature": 13.1
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 1,
+                        "temperature": 12.0
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 11.9
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 2,
+                        "temperature": 14.6
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 51,
+                        "temperature": 13.4
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 53,
+                        "temperature": 10.9
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 53,
+                        "temperature": 11.0
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 51,
+                        "temperature": 10.1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Bruges",
+        "country": "BE",
+        "lat": 51.20892,
+        "long": 3.22424,
+        "temperature_moyenne": 13.9,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 15.3
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 19.1
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 21.6
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 61,
+                        "temperature": 19.7
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 10.8
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 15.9
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 0,
+                        "temperature": 13.4
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 51,
+                        "temperature": 12.2
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 51,
+                        "temperature": 11.9
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 51,
+                        "temperature": 13.2
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 2,
+                        "temperature": 11.8
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 53,
+                        "temperature": 8.4
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 53,
+                        "temperature": 10.9
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 53,
+                        "temperature": 10.9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Gand",
+        "country": "BE",
+        "lat": 51.05,
+        "long": 3.71667,
+        "temperature_moyenne": 14.7,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 16.0
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 19.5
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 22.0
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 53,
+                        "temperature": 19.2
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 11.6
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 2,
+                        "temperature": 16.4
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 0,
+                        "temperature": 13.8
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 3,
+                        "temperature": 12.4
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 12.4
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 51,
+                        "temperature": 14.9
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 53,
+                        "temperature": 14.4
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 53,
+                        "temperature": 9.9
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 51,
+                        "temperature": 12.1
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 51,
+                        "temperature": 10.6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Anvers",
+        "country": "BE",
+        "lat": 51.22047,
+        "long": 4.40026,
+        "temperature_moyenne": 14.5,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 15.0
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 18.5
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 21.3
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 63,
+                        "temperature": 19.4
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 10.8
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 16.2
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 2,
+                        "temperature": 13.2
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 2,
+                        "temperature": 12.4
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 12.2
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 15.2
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 53,
+                        "temperature": 13.8
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 53,
+                        "temperature": 10.9
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 51,
+                        "temperature": 12.5
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 51,
+                        "temperature": 11.2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Liège",
+        "country": "BE",
+        "lat": 50.63373,
+        "long": 5.56749,
+        "temperature_moyenne": 13.5,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 14.6
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 18.5
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 21.4
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 51,
+                        "temperature": 19.5
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 53,
+                        "temperature": 10.6
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 1,
+                        "temperature": 15.8
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 0,
+                        "temperature": 11.8
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 51,
+                        "temperature": 10.1
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 11.2
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 51,
+                        "temperature": 13.1
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 51,
+                        "temperature": 12.1
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 51,
+                        "temperature": 9.6
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 71,
+                        "temperature": 11.0
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 51,
+                        "temperature": 9.6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Namur",
+        "country": "BE",
+        "lat": 50.4669,
+        "long": 4.86746,
+        "temperature_moyenne": 13.4,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 14.5
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 19.7
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 21.6
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 51,
+                        "temperature": 19.4
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 51,
+                        "temperature": 10.6
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 2,
+                        "temperature": 16.5
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 1,
+                        "temperature": 12.6
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 51,
+                        "temperature": 10.0
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 10.8
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 12.9
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 55,
+                        "temperature": 11.4
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 51,
+                        "temperature": 9.6
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 51,
+                        "temperature": 10.1
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 51,
+                        "temperature": 8.4
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Genève",
+        "country": "CH",
+        "lat": 46.20222,
+        "long": 6.14569,
+        "temperature_moyenne": 17.2,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 23.8
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 23.4
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 2,
+                        "temperature": 23.2
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 24.2
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 21.3
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 2,
+                        "temperature": 16.5
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 71,
+                        "temperature": 10.0
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 71,
+                        "temperature": 13.4
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 19.1
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 18.4
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 51,
+                        "temperature": 17.8
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 51,
+                        "temperature": 8.7
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 8.3
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 13.1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Lausanne",
+        "country": "CH",
+        "lat": 46.516,
+        "long": 6.63282,
+        "temperature_moyenne": 16.3,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 21.1
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 21.6
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 1,
+                        "temperature": 22.2
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 21.0
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 18.3
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 2,
+                        "temperature": 16.9
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 15.6
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 12.0
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 17.9
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 18.4
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 17.3
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 71,
+                        "temperature": 6.9
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 71,
+                        "temperature": 6.6
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 12.5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Berne",
+        "country": "CH",
+        "lat": 46.94809,
+        "long": 7.44744,
+        "temperature_moyenne": 15.1,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 20.4
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 45,
+                        "temperature": 22.7
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 1,
+                        "temperature": 21.7
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 22.1
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 15.2
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 2,
+                        "temperature": 16.9
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 13.3
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 12.4
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 17.9
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 18.3
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 51,
+                        "temperature": 16.4
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 85,
+                        "temperature": 2.9
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 73,
+                        "temperature": 3.3
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 7.4
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Bâle",
+        "country": "CH",
+        "lat": 47.55839,
+        "long": 7.57327,
+        "temperature_moyenne": 15.6,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 19.4
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 21.3
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 1,
+                        "temperature": 21.2
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 21.5
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 13.5
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 16.4
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 12.2
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 17.6
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 19.0
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 21.0
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 51,
+                        "temperature": 16.0
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 71,
+                        "temperature": 6.7
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 71,
+                        "temperature": 3.1
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 45,
+                        "temperature": 8.8
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Zurich",
+        "country": "CH",
+        "lat": 47.36667,
+        "long": 8.55,
+        "temperature_moyenne": 15.2,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 95,
+                        "temperature": 19.2
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 22.0
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 1,
+                        "temperature": 20.7
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 20.1
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 12.9
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 15.9
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 14.0
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 15.6
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 20.0
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 19.0
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 51,
+                        "temperature": 17.3
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 73,
+                        "temperature": 5.3
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 73,
+                        "temperature": 2.2
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 7.9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Lucerne",
+        "country": "CH",
+        "lat": 47.05048,
+        "long": 8.30635,
+        "temperature_moyenne": 15.0,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 80,
+                        "temperature": 19.0
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 45,
+                        "temperature": 21.7
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 45,
+                        "temperature": 20.8
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 20.5
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 12.6
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 16.0
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 16.4
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 13.4
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 18.0
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 19.1
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 85,
+                        "temperature": 16.6
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 73,
+                        "temperature": 4.5
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 73,
+                        "temperature": 3.7
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 45,
+                        "temperature": 7.2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Lugano",
+        "country": "CH",
+        "lat": 46.01008,
+        "long": 8.96004,
+        "temperature_moyenne": 18.9,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 24.5
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 23.7
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 2,
+                        "temperature": 21.4
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 19.3
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 22.9
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 17.7
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 3,
+                        "temperature": 18.7
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 3,
+                        "temperature": 16.2
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 21.7
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 21.1
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 53,
+                        "temperature": 20.1
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 71,
+                        "temperature": 13.6
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 71,
+                        "temperature": 9.9
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 13.9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Milan",
+        "country": "IT",
+        "lat": 45.46427,
+        "long": 9.18951,
+        "temperature_moyenne": 19.5,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 25.1
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 24.8
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 23.4
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 20.8
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 23.5
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 16.9
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 3,
+                        "temperature": 17.9
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 3,
+                        "temperature": 18.5
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 21.6
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 21.0
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 51,
+                        "temperature": 19.7
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 61,
+                        "temperature": 12.5
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 61,
+                        "temperature": 11.4
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 16.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Turin",
+        "country": "IT",
+        "lat": 45.07049,
+        "long": 7.68682,
+        "temperature_moyenne": 19.6,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 24.8
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 24.3
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 1,
+                        "temperature": 24.4
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 21.6
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 23.4
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 16.0
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 3,
+                        "temperature": 16.3
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 3,
+                        "temperature": 17.9
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 22.3
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 21.7
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 51,
+                        "temperature": 20.6
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 61,
+                        "temperature": 12.4
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 51,
+                        "temperature": 12.0
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 16.4
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Gênes",
+        "country": "IT",
+        "lat": 44.40478,
+        "long": 8.94439,
+        "temperature_moyenne": 17.8,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 17.0
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 16.4
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 19.5
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 19.0
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 45,
+                        "temperature": 17.8
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 16.6
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 3,
+                        "temperature": 18.6
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 3,
+                        "temperature": 18.8
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 2,
+                        "temperature": 23.2
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 23.4
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 20.6
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 80,
+                        "temperature": 11.6
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 53,
+                        "temperature": 11.5
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 14.9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Aoste",
+        "country": "IT",
+        "lat": 45.73764,
+        "long": 7.31722,
+        "temperature_moyenne": 19.7,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 80,
+                        "temperature": 25.0
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 2,
+                        "temperature": 26.3
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 1,
+                        "temperature": 23.7
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 23.4
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 21.4
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 17.5
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 3,
+                        "temperature": 17.7
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 14.2
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 22.3
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 22.8
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 19.8
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 51,
+                        "temperature": 10.5
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 51,
+                        "temperature": 12.8
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 19.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Côme",
+        "country": "IT",
+        "lat": 45.80819,
+        "long": 9.0832,
+        "temperature_moyenne": 19.1,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 24.6
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 24.0
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 45,
+                        "temperature": 22.3
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 19.9
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 23.8
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 16.4
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 2,
+                        "temperature": 17.4
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 3,
+                        "temperature": 17.9
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 21.4
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 21.1
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 51,
+                        "temperature": 19.5
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 53,
+                        "temperature": 13.3
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 53,
+                        "temperature": 10.6
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 15.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Vérone",
+        "country": "IT",
+        "lat": 45.43854,
+        "long": 10.9938,
+        "temperature_moyenne": 18.3,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 23.8
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 24.1
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 2,
+                        "temperature": 20.4
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 18.9
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 18.9
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 16.7
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 2,
+                        "temperature": 17.4
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 3,
+                        "temperature": 18.3
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 20.4
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 20.9
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 18.4
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 55,
+                        "temperature": 12.1
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 53,
+                        "temperature": 10.7
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 15.4
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Venise",
+        "country": "IT",
+        "lat": 45.43713,
+        "long": 12.33265,
+        "temperature_moyenne": 16.0,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 18.6
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 2,
+                        "temperature": 18.7
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 17.9
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 15.6
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 16.0
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 15.0
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 3,
+                        "temperature": 16.4
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 3,
+                        "temperature": 15.9
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 16.7
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 16.5
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 16.1
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 53,
+                        "temperature": 12.5
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 55,
+                        "temperature": 13.2
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 14.3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Barcelone",
+        "country": "ES",
+        "lat": 41.38879,
+        "long": 2.15899,
+        "temperature_moyenne": 19.7,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 0,
+                        "temperature": 20.2
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 19.2
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 19.2
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 20.9
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 1,
+                        "temperature": 24.2
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 21.1
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 16.1
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 16.6
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 20.6
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 51,
+                        "temperature": 21.9
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 22.4
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 21.1
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 17.0
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 51,
+                        "temperature": 15.1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Saint-Sébastien",
+        "country": "ES",
+        "lat": 43.31283,
+        "long": -1.97499,
+        "temperature_moyenne": 18.0,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 28.7
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 26.7
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 26.8
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 17.4
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 23.0
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 63,
+                        "temperature": 19.6
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 80,
+                        "temperature": 9.9
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 51,
+                        "temperature": 11.6
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 11.7
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 14.9
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 17.7
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 14.9
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 11.7
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 51,
+                        "temperature": 18.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pampelune",
+        "country": "ES",
+        "lat": 42.81687,
+        "long": -1.64323,
+        "temperature_moyenne": 17.9,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 25.8
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 24.3
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 26.8
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 27.5
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 2,
+                        "temperature": 26.1
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 61,
+                        "temperature": 22.8
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 8.3
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 3,
+                        "temperature": 9.2
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 11.3
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 11.9
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 17.1
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 14.1
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 12.6
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 51,
+                        "temperature": 13.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Bilbao",
+        "country": "ES",
+        "lat": 43.26271,
+        "long": -2.92528,
+        "temperature_moyenne": 18.9,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 28.7
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 25.5
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 27.6
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 19.5
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 26.7
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 80,
+                        "temperature": 18.1
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 80,
+                        "temperature": 9.6
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 3,
+                        "temperature": 12.1
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 12.1
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 17.5
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 18.9
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 15.8
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 12.9
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 53,
+                        "temperature": 20.2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Gérone",
+        "country": "ES",
+        "lat": 41.98311,
+        "long": 2.82493,
+        "temperature_moyenne": 21.4,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 45,
+                        "temperature": 23.4
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 23.0
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 45,
+                        "temperature": 24.4
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 45,
+                        "temperature": 27.2
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 1,
+                        "temperature": 27.8
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 61,
+                        "temperature": 21.9
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 14.3
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 17.8
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 19.9
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 22.9
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 23.7
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 3,
+                        "temperature": 20.9
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 3,
+                        "temperature": 16.7
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 51,
+                        "temperature": 16.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Munich",
+        "country": "DE",
+        "lat": 48.13743,
+        "long": 11.57549,
+        "temperature_moyenne": 12.3,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 80,
+                        "temperature": 15.6
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 2,
+                        "temperature": 16.7
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 0,
+                        "temperature": 14.6
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 61,
+                        "temperature": 12.4
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 80,
+                        "temperature": 10.3
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 2,
+                        "temperature": 11.3
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 3,
+                        "temperature": 13.0
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 16.7
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 16.7
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 16.9
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 51,
+                        "temperature": 13.9
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 71,
+                        "temperature": 4.2
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 51,
+                        "temperature": 6.0
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 71,
+                        "temperature": 4.1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fribourg-en-Brisgau",
+        "country": "DE",
+        "lat": 47.9959,
+        "long": 7.85222,
+        "temperature_moyenne": 14.8,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 18.3
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 20.1
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 1,
+                        "temperature": 19.9
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 19.6
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 12.6
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 18.4
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 13.8
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 17.7
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 18.6
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 20.4
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 51,
+                        "temperature": 14.2
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 71,
+                        "temperature": 4.7
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 71,
+                        "temperature": 3.0
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 45,
+                        "temperature": 6.5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Stuttgart",
+        "country": "DE",
+        "lat": 48.78232,
+        "long": 9.17702,
+        "temperature_moyenne": 14.3,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 16.1
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 1,
+                        "temperature": 19.1
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 19.1
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 17.9
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 11.9
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 14.7
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 16.5
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 18.2
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 0,
+                        "temperature": 19.4
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 19.5
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 51,
+                        "temperature": 12.3
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 71,
+                        "temperature": 5.6
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 71,
+                        "temperature": 4.0
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 53,
+                        "temperature": 6.2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Francfort",
+        "country": "DE",
+        "lat": 50.11552,
+        "long": 8.68417,
+        "temperature_moyenne": 15.7,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 15.2
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 0,
+                        "temperature": 17.3
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 17.5
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 3,
+                        "temperature": 17.2
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 3,
+                        "temperature": 13.8
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 3,
+                        "temperature": 14.4
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 61,
+                        "temperature": 13.6
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 61,
+                        "temperature": 20.2
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 21.4
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 21.3
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 3,
+                        "temperature": 15.0
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 51,
+                        "temperature": 9.2
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 71,
+                        "temperature": 7.7
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 3,
+                        "temperature": 16.7
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cologne",
+        "country": "DE",
+        "lat": 50.93333,
+        "long": 6.95,
+        "temperature_moyenne": 13.7,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-04-06",
+                        "weather_code": 3,
+                        "temperature": 14.7
+                    },
+                    {
+                        "date": "2026-04-07",
+                        "weather_code": 3,
+                        "temperature": 18.7
+                    },
+                    {
+                        "date": "2026-04-08",
+                        "weather_code": 3,
+                        "temperature": 19.6
+                    },
+                    {
+                        "date": "2026-04-09",
+                        "weather_code": 53,
+                        "temperature": 16.1
+                    },
+                    {
+                        "date": "2026-04-10",
+                        "weather_code": 53,
+                        "temperature": 11.6
+                    },
+                    {
+                        "date": "2026-04-11",
+                        "weather_code": 1,
+                        "temperature": 16.4
+                    },
+                    {
+                        "date": "2026-04-12",
+                        "weather_code": 2,
+                        "temperature": 12.2
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-04-13",
+                        "weather_code": 51,
+                        "temperature": 10.4
+                    },
+                    {
+                        "date": "2026-04-14",
+                        "weather_code": 3,
+                        "temperature": 11.8
+                    },
+                    {
+                        "date": "2026-04-15",
+                        "weather_code": 3,
+                        "temperature": 13.9
+                    },
+                    {
+                        "date": "2026-04-16",
+                        "weather_code": 51,
+                        "temperature": 12.9
+                    },
+                    {
+                        "date": "2026-04-17",
+                        "weather_code": 53,
+                        "temperature": 11.2
+                    },
+                    {
+                        "date": "2026-04-18",
+                        "weather_code": 53,
+                        "temperature": 12.5
+                    },
+                    {
+                        "date": "2026-04-19",
+                        "weather_code": 51,
+                        "temperature": 10.2
+                    }
+                ]
+            }
+        ]
+    }
+]
