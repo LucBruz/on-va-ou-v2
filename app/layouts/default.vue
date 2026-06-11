@@ -36,14 +36,17 @@ const drawerOpen = ref(false)
           >
             🌍 On va où ?
           </h1>
-          <Button
-            variant="ghost"
-            size="sm"
-            class="text-xs"
-            @click="store.isSubmitted = false"
-          >
-            ✏️ Modifier
-          </Button>
+          <div class="flex items-center gap-1">
+            <ThemeToggle />
+            <Button
+              variant="ghost"
+              size="sm"
+              class="text-xs"
+              @click="store.isSubmitted = false"
+            >
+              ✏️ Modifier
+            </Button>
+          </div>
         </div>
         <div class="p-5 flex-1 overflow-y-auto">
           <TravelConfigurator :compact="true" />
@@ -63,14 +66,17 @@ const drawerOpen = ref(false)
           class="font-bold text-sm"
           :style="{ color: 'rgb(var(--color-text))' }"
         >🌍 On va où ?</span>
-        <Button
-          variant="ghost"
-          size="sm"
-          class="text-xs"
-          @click="store.isSubmitted = false"
-        >
-          ✏️
-        </Button>
+        <div class="flex items-center gap-1">
+          <ThemeToggle />
+          <Button
+            variant="ghost"
+            size="sm"
+            class="text-xs"
+            @click="store.isSubmitted = false"
+          >
+            ✏️
+          </Button>
+        </div>
       </div>
 
       <!-- Mobile drawer -->

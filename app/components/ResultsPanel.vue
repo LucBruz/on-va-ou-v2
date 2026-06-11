@@ -48,7 +48,7 @@ const displayPropositions = computed(() => {
     <!-- Header sticky avec recherche + tri -->
     <div
       class="sticky top-0 z-10 backdrop-blur-md border-b"
-      style="background: rgba(250, 250, 250, 0.85); border-color: rgb(var(--color-border))"
+      style="background: rgb(var(--color-bg) / 0.85); border-color: rgb(var(--color-border))"
     >
       <div class="max-w-7xl mx-auto px-6 py-3">
         <input

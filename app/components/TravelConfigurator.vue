@@ -36,8 +36,17 @@ const endMax = computed(() => {
 
 const canSubmit = computed(() => !!startDate.value && !!endDate.value)
 
+const endDateInput = ref<HTMLInputElement | null>(null)
+
 // Sync dates vers le store immédiatement (pour que startIndex/endIndex soient réactifs)
-watch(startDate, (v) => { store.startDate = v || null })
+watch(startDate, (v) => {
+  store.startDate = v || null
+  if (v) {
+    nextTick(() => {
+      try { endDateInput.value?.showPicker() } catch { endDateInput.value?.focus() }
+    })
+  }
+})
 watch(endDate, (v) => { store.endDate = v || null })
 
 // Sync sliders vers le store immédiatement (filteredAndSortedPropositions est réactif)
@@ -99,21 +108,27 @@ function toggleType(tag: CityTag) {
   <!-- HERO MODE -->
   <div
     v-if="!compact"
-    class="min-h-screen flex items-center justify-center px-4 py-8"
+    class="h-screen overflow-y-auto"
     :style="{ background: 'rgb(var(--color-bg))' }"
   >
+    <div class="min-h-full flex items-center justify-center px-4 py-2">
     <div
-      class="w-full max-w-2xl rounded-2xl p-8 shadow-xl border"
+      class="w-full max-w-2xl rounded-2xl p-5 sm:p-8 shadow-xl border relative"
       :style="{
         background: 'rgb(var(--color-surface))',
         borderColor: 'rgb(var(--color-border))',
       }"
     >
+      <!-- Toggle thème -->
+      <div class="absolute top-3 right-3">
+        <ThemeToggle />
+      </div>
+
       <!-- Header -->
-      <div class="text-center mb-8">
-        <div class="text-4xl mb-2">🌍</div>
+      <div class="text-center mb-3">
+        <div class="text-2xl mb-1">🌍</div>
         <h1
-          class="text-3xl font-bold"
+          class="text-2xl font-bold"
           :style="{ color: 'rgb(var(--color-text))' }"
         >
           On va où ?
@@ -127,7 +142,7 @@ function toggleType(tag: CityTag) {
       </div>
 
       <!-- Form content -->
-      <div class="space-y-6">
+      <div class="space-y-4">
         <!-- Dates -->
         <div>
           <label
@@ -153,6 +168,7 @@ function toggleType(tag: CityTag) {
             <div class="flex-1">
               <label class="block text-xs mb-1" :style="{ color: 'rgb(var(--color-text-muted))' }">Au</label>
               <input
+                ref="endDateInput"
                 v-model="endDate"
                 type="date"
                 :min="endMin"
@@ -170,7 +186,7 @@ function toggleType(tag: CityTag) {
         </div>
 
         <!-- Sliders -->
-        <div class="space-y-4">
+        <div class="space-y-3">
           <label
             class="block text-xs font-semibold uppercase tracking-wide"
             :style="{ color: 'rgb(var(--color-text-muted))' }"
@@ -249,13 +265,14 @@ function toggleType(tag: CityTag) {
 
       <!-- Bouton confirmation -->
       <Button
-        class="w-full mt-8 py-3 text-base font-semibold"
+        class="w-full mt-5 py-2.5 text-base font-semibold"
         :disabled="!canSubmit"
         @click="confirmSearch"
       >
         Trouver ma destination
       </Button>
 
+    </div>
     </div>
   </div>
 

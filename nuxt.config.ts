@@ -4,7 +4,12 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['@pinia/nuxt', 'shadcn-nuxt'],
+  modules: ['@pinia/nuxt', 'shadcn-nuxt', '@nuxtjs/color-mode'],
+  colorMode: {
+    classSuffix: '',       // Pose la classe '.dark' (pas '.dark-mode') – requis par le CSS
+    preference: 'system',  // Suit la préférence OS au premier chargement
+    fallback: 'light',
+  },
   css: ['~/assets/css/tailwind.css'],
   vite: {
     plugins: [tailwindcss()],

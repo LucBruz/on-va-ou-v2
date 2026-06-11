@@ -112,21 +112,21 @@ const countryLabels: Record<string, string> = {
         <Badge
           v-if="hasTemperatureBadge"
           class="text-xs border"
-          style="background-color: #fef3c7; color: #92400e; border-color: #fde68a;"
+          style="background-color: rgb(var(--badge-warm-bg)); color: rgb(var(--badge-warm-text)); border-color: rgb(var(--badge-warm-border));"
         >
           🌡️ Température
         </Badge>
         <Badge
           v-if="hasEconomeBadge"
           class="text-xs border"
-          style="background-color: #d1fae5; color: #065f46; border-color: #6ee7b7;"
+          style="background-color: rgb(var(--badge-eco-bg)); color: rgb(var(--badge-eco-text)); border-color: rgb(var(--badge-eco-border));"
         >
           🚗 Économe
         </Badge>
         <Badge
           v-if="hasSoleilBadge"
           class="text-xs border"
-          style="background-color: #fef9c3; color: #854d0e; border-color: #fde047;"
+          style="background-color: rgb(var(--badge-sun-bg)); color: rgb(var(--badge-sun-text)); border-color: rgb(var(--badge-sun-border));"
         >
           ☀️ Soleil
         </Badge>
@@ -147,15 +147,15 @@ const countryLabels: Record<string, string> = {
       <svg viewBox="0 0 200 40" class="w-full h-10">
         <defs>
           <linearGradient :id="gradientId" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="rgb(79 70 229)" stop-opacity="0.35" />
-            <stop offset="100%" stop-color="rgb(79 70 229)" stop-opacity="0" />
+            <stop offset="0%" stop-color="rgb(var(--color-accent))" stop-opacity="0.35" />
+            <stop offset="100%" stop-color="rgb(var(--color-accent))" stop-opacity="0" />
           </linearGradient>
         </defs>
         <path :d="sparklineData.areaPath" :fill="`url(#${gradientId})`" />
         <polyline
           :points="sparklineData.points"
           fill="none"
-          stroke="rgb(79 70 229)"
+          stroke="rgb(var(--color-accent))"
           stroke-width="1.5"
           stroke-linecap="round"
           stroke-linejoin="round"

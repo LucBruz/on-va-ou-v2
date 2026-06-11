@@ -8,14 +8,25 @@
 
 @layer base {
   :root {
-    /* Palette 60-30-10 */
-    --color-bg: 250 250 250;         /* Zinc-50 */
-    --color-surface: 244 244 245;    /* Zinc-100 */
+    /* Palette 60-30-10 – light adouci */
+    --color-bg: 246 246 251;         /* Slate-50 légèrement teinté */
+    --color-surface: 238 238 245;    /* Slate-100 légèrement teinté */
     --color-accent: 79 70 229;       /* Indigo-600 */
     --color-accent-warm: 245 158 11; /* Amber-500 */
-    --color-text: 24 24 27;          /* Zinc-900 */
-    --color-text-muted: 113 113 122; /* Zinc-500 */
-    --color-border: 228 228 231;     /* Zinc-200 */
+    --color-text: 38 38 52;          /* Slate sombre, pas pur noir */
+    --color-text-muted: 112 112 130; /* Slate-500 */
+    --color-border: 218 218 232;     /* Slate-200 légèrement teinté */
+
+    /* Badges city cards – light */
+    --badge-warm-bg: 254 243 199;   /* amber-100 */
+    --badge-warm-text: 146 64 14;   /* amber-800 */
+    --badge-warm-border: 253 230 138; /* amber-200 */
+    --badge-eco-bg: 209 250 229;    /* emerald-100 */
+    --badge-eco-text: 6 95 70;      /* emerald-800 */
+    --badge-eco-border: 110 231 183; /* emerald-300 */
+    --badge-sun-bg: 254 249 195;    /* yellow-100 */
+    --badge-sun-text: 133 77 14;    /* yellow-800 */
+    --badge-sun-border: 253 224 71; /* yellow-300 */
   }
 }
 
@@ -23,6 +34,30 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: rgb(var(--color-bg));
   color: rgb(var(--color-text));
+}
+
+/* Scrollbar — s'adapte automatiquement au thème via les variables CSS */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(var(--color-border)) transparent;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--color-border));
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--color-text-muted));
 }
 
 @theme inline {
@@ -65,13 +100,13 @@ body {
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
+  --background: oklch(0.968 0.004 264);
+  --foreground: oklch(0.215 0.008 264);
+  --card: oklch(0.968 0.004 264);
+  --card-foreground: oklch(0.215 0.008 264);
+  --popover: oklch(0.968 0.004 264);
+  --popover-foreground: oklch(0.215 0.008 264);
+  --primary: oklch(0.215 0.008 264);
   --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
@@ -99,14 +134,34 @@ body {
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
+  /* Palette 60-30-10 – dark adouci */
+  --color-bg: 20 20 30;            /* Slate sombre teinté, pas pur noir */
+  --color-surface: 30 30 44;       /* Légèrement plus clair */
+  --color-accent: 99 102 241;      /* Indigo-500 */
+  --color-accent-warm: 251 191 36; /* Amber-400 */
+  --color-text: 210 210 228;       /* Off-white teinté, pas pur blanc */
+  --color-text-muted: 138 138 158; /* Slate medium */
+  --color-border: 52 52 70;        /* Slate foncé teinté */
+
+  /* Badges city cards – dark */
+  --badge-warm-bg: 120 53 15;     /* amber-900 */
+  --badge-warm-text: 253 230 138; /* amber-200 */
+  --badge-warm-border: 146 64 14; /* amber-800 */
+  --badge-eco-bg: 6 78 59;        /* emerald-900 */
+  --badge-eco-text: 167 243 208;  /* emerald-200 */
+  --badge-eco-border: 6 95 70;    /* emerald-800 */
+  --badge-sun-bg: 113 63 18;      /* yellow-900 */
+  --badge-sun-text: 254 240 138;  /* yellow-200 */
+  --badge-sun-border: 161 98 7;   /* yellow-700 */
+
+  --background: oklch(0.17 0.01 264);
+  --foreground: oklch(0.875 0.006 264);
+  --card: oklch(0.21 0.012 264);
+  --card-foreground: oklch(0.875 0.006 264);
+  --popover: oklch(0.21 0.012 264);
+  --popover-foreground: oklch(0.875 0.006 264);
+  --primary: oklch(0.875 0.006 264);
+  --primary-foreground: oklch(0.21 0.012 264);
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.269 0 0);
