@@ -16,12 +16,12 @@
                     },
                     {
                         "date": "2026-09-11",
-                        "weather_code": 3,
+                        "weather_code": 80,
                         "temperature": 23.4
                     },
                     {
                         "date": "2026-09-12",
-                        "weather_code": 45,
+                        "weather_code": 3,
                         "temperature": 25.0
                     },
                     {
@@ -100,7 +100,7 @@
                 "daily": [
                     {
                         "date": "2026-09-10",
-                        "weather_code": 2,
+                        "weather_code": 3,
                         "temperature": 24.6
                     },
                     {
@@ -378,17 +378,17 @@
                     {
                         "date": "2026-09-12",
                         "weather_code": 0,
-                        "temperature": 27.9
+                        "temperature": 27.2
                     },
                     {
                         "date": "2026-09-13",
                         "weather_code": 3,
-                        "temperature": 28.5
+                        "temperature": 28.3
                     },
                     {
                         "date": "2026-09-14",
-                        "weather_code": 2,
-                        "temperature": 26.7
+                        "weather_code": 3,
+                        "temperature": 27.1
                     },
                     {
                         "date": "2026-09-15",
@@ -635,16 +635,16 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 3,
-                        "temperature": 22.6
+                        "temperature": 22.9
                     },
                     {
                         "date": "2026-09-11",
                         "weather_code": 2,
-                        "temperature": 24.2
+                        "temperature": 24.0
                     },
                     {
                         "date": "2026-09-12",
-                        "weather_code": 1,
+                        "weather_code": 2,
                         "temperature": 26.3
                     },
                     {
@@ -734,16 +734,16 @@
                     {
                         "date": "2026-09-12",
                         "weather_code": 3,
-                        "temperature": 26.9
+                        "temperature": 27.1
                     },
                     {
                         "date": "2026-09-13",
                         "weather_code": 3,
-                        "temperature": 27.3
+                        "temperature": 27.1
                     },
                     {
                         "date": "2026-09-14",
-                        "weather_code": 3,
+                        "weather_code": 2,
                         "temperature": 29.7
                     },
                     {
@@ -812,13 +812,13 @@
                 "daily": [
                     {
                         "date": "2026-09-10",
-                        "weather_code": 0,
+                        "weather_code": 2,
                         "temperature": 27.2
                     },
                     {
                         "date": "2026-09-11",
                         "weather_code": 3,
-                        "temperature": 27.5
+                        "temperature": 27.3
                     },
                     {
                         "date": "2026-09-12",
@@ -894,7 +894,7 @@
         "country": "FR",
         "lat": 43.48055,
         "long": -1.55684,
-        "temperature_moyenne": 25.4,
+        "temperature_moyenne": 25.2,
         "forecast": [
             {
                 "semaine": 1,
@@ -912,16 +912,16 @@
                     {
                         "date": "2026-09-12",
                         "weather_code": 3,
-                        "temperature": 26.6
+                        "temperature": 27.1
                     },
                     {
                         "date": "2026-09-13",
-                        "weather_code": 2,
-                        "temperature": 30.0
+                        "weather_code": 3,
+                        "temperature": 26.6
                     },
                     {
                         "date": "2026-09-14",
-                        "weather_code": 2,
+                        "weather_code": 3,
                         "temperature": 30.6
                     },
                     {
@@ -1001,16 +1001,16 @@
                     {
                         "date": "2026-09-12",
                         "weather_code": 3,
-                        "temperature": 24.0
+                        "temperature": 25.1
                     },
                     {
                         "date": "2026-09-13",
                         "weather_code": 3,
-                        "temperature": 26.4
+                        "temperature": 25.9
                     },
                     {
                         "date": "2026-09-14",
-                        "weather_code": 3,
+                        "weather_code": 2,
                         "temperature": 28.3
                     },
                     {
@@ -1090,12 +1090,12 @@
                     {
                         "date": "2026-09-12",
                         "weather_code": 3,
-                        "temperature": 25.8
+                        "temperature": 26.1
                     },
                     {
                         "date": "2026-09-13",
                         "weather_code": 3,
-                        "temperature": 27.3
+                        "temperature": 26.4
                     },
                     {
                         "date": "2026-09-14",
@@ -1169,16 +1169,16 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 3,
-                        "temperature": 20.4
+                        "temperature": 20.3
                     },
                     {
                         "date": "2026-09-11",
                         "weather_code": 45,
-                        "temperature": 22.6
+                        "temperature": 22.7
                     },
                     {
                         "date": "2026-09-12",
-                        "weather_code": 3,
+                        "weather_code": 45,
                         "temperature": 22.9
                     },
                     {
@@ -1258,7 +1258,7 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 3,
-                        "temperature": 23.3
+                        "temperature": 22.9
                     },
                     {
                         "date": "2026-09-11",
@@ -1335,6 +1335,184 @@
         ]
     },
     {
+        "name": "Avignon",
+        "country": "FR",
+        "lat": 43.94834,
+        "long": 4.80892,
+        "temperature_moyenne": 27.6,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-09-10",
+                        "weather_code": 0,
+                        "temperature": 24.6
+                    },
+                    {
+                        "date": "2026-09-11",
+                        "weather_code": 3,
+                        "temperature": 26.4
+                    },
+                    {
+                        "date": "2026-09-12",
+                        "weather_code": 3,
+                        "temperature": 28.9
+                    },
+                    {
+                        "date": "2026-09-13",
+                        "weather_code": 3,
+                        "temperature": 30.0
+                    },
+                    {
+                        "date": "2026-09-14",
+                        "weather_code": 2,
+                        "temperature": 32.3
+                    },
+                    {
+                        "date": "2026-09-15",
+                        "weather_code": 2,
+                        "temperature": 33.0
+                    },
+                    {
+                        "date": "2026-09-16",
+                        "weather_code": 45,
+                        "temperature": 26.3
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-09-17",
+                        "weather_code": 3,
+                        "temperature": 22.1
+                    },
+                    {
+                        "date": "2026-09-18",
+                        "weather_code": 3,
+                        "temperature": 24.7
+                    },
+                    {
+                        "date": "2026-09-19",
+                        "weather_code": 2,
+                        "temperature": 26.9
+                    },
+                    {
+                        "date": "2026-09-20",
+                        "weather_code": 3,
+                        "temperature": 27.3
+                    },
+                    {
+                        "date": "2026-09-21",
+                        "weather_code": 2,
+                        "temperature": 27.7
+                    },
+                    {
+                        "date": "2026-09-22",
+                        "weather_code": 0,
+                        "temperature": 28.3
+                    },
+                    {
+                        "date": "2026-09-23",
+                        "weather_code": 1,
+                        "temperature": 27.6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cannes",
+        "country": "FR",
+        "lat": 43.55135,
+        "long": 7.01275,
+        "temperature_moyenne": 26.7,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-09-10",
+                        "weather_code": 3,
+                        "temperature": 25.9
+                    },
+                    {
+                        "date": "2026-09-11",
+                        "weather_code": 3,
+                        "temperature": 26.0
+                    },
+                    {
+                        "date": "2026-09-12",
+                        "weather_code": 3,
+                        "temperature": 28.9
+                    },
+                    {
+                        "date": "2026-09-13",
+                        "weather_code": 3,
+                        "temperature": 28.6
+                    },
+                    {
+                        "date": "2026-09-14",
+                        "weather_code": 2,
+                        "temperature": 28.1
+                    },
+                    {
+                        "date": "2026-09-15",
+                        "weather_code": 2,
+                        "temperature": 27.4
+                    },
+                    {
+                        "date": "2026-09-16",
+                        "weather_code": 2,
+                        "temperature": 27.1
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-09-17",
+                        "weather_code": 2,
+                        "temperature": 26.2
+                    },
+                    {
+                        "date": "2026-09-18",
+                        "weather_code": 2,
+                        "temperature": 25.7
+                    },
+                    {
+                        "date": "2026-09-19",
+                        "weather_code": 1,
+                        "temperature": 26.4
+                    },
+                    {
+                        "date": "2026-09-20",
+                        "weather_code": 2,
+                        "temperature": 25.7
+                    },
+                    {
+                        "date": "2026-09-21",
+                        "weather_code": 3,
+                        "temperature": 26.8
+                    },
+                    {
+                        "date": "2026-09-22",
+                        "weather_code": 2,
+                        "temperature": 24.3
+                    },
+                    {
+                        "date": "2026-09-23",
+                        "weather_code": 1,
+                        "temperature": 26.2
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Saint-Tropez",
         "country": "FR",
         "lat": 43.26764,
@@ -1356,18 +1534,18 @@
                     },
                     {
                         "date": "2026-09-12",
-                        "weather_code": 2,
-                        "temperature": 27.8
+                        "weather_code": 3,
+                        "temperature": 27.6
                     },
                     {
                         "date": "2026-09-13",
-                        "weather_code": 2,
-                        "temperature": 28.8
+                        "weather_code": 3,
+                        "temperature": 29.0
                     },
                     {
                         "date": "2026-09-14",
                         "weather_code": 3,
-                        "temperature": 26.3
+                        "temperature": 27.0
                     },
                     {
                         "date": "2026-09-15",
@@ -1441,7 +1619,7 @@
                     {
                         "date": "2026-09-11",
                         "weather_code": 3,
-                        "temperature": 23.4
+                        "temperature": 23.2
                     },
                     {
                         "date": "2026-09-12",
@@ -1517,20 +1695,20 @@
         "country": "FR",
         "lat": 49.26526,
         "long": 4.02853,
-        "temperature_moyenne": 21.7,
+        "temperature_moyenne": 21.8,
         "forecast": [
             {
                 "semaine": 1,
                 "daily": [
                     {
                         "date": "2026-09-10",
-                        "weather_code": 3,
-                        "temperature": 21.4
+                        "weather_code": 2,
+                        "temperature": 21.6
                     },
                     {
                         "date": "2026-09-11",
-                        "weather_code": 80,
-                        "temperature": 21.8
+                        "weather_code": 3,
+                        "temperature": 22.1
                     },
                     {
                         "date": "2026-09-12",
@@ -1614,12 +1792,12 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 3,
-                        "temperature": 20.1
+                        "temperature": 19.9
                     },
                     {
                         "date": "2026-09-11",
                         "weather_code": 61,
-                        "temperature": 22.7
+                        "temperature": 22.4
                     },
                     {
                         "date": "2026-09-12",
@@ -1695,7 +1873,7 @@
         "country": "FR",
         "lat": 48.68439,
         "long": 6.18496,
-        "temperature_moyenne": 21.9,
+        "temperature_moyenne": 21.8,
         "forecast": [
             {
                 "semaine": 1,
@@ -1703,12 +1881,12 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 2,
-                        "temperature": 21.6
+                        "temperature": 21.7
                     },
                     {
                         "date": "2026-09-11",
-                        "weather_code": 80,
-                        "temperature": 22.6
+                        "weather_code": 3,
+                        "temperature": 22.3
                     },
                     {
                         "date": "2026-09-12",
@@ -1791,7 +1969,7 @@
                 "daily": [
                     {
                         "date": "2026-09-10",
-                        "weather_code": 1,
+                        "weather_code": 0,
                         "temperature": 26.0
                     },
                     {
@@ -1873,7 +2051,7 @@
         "country": "FR",
         "lat": 43.67681,
         "long": 4.63031,
-        "temperature_moyenne": 28.0,
+        "temperature_moyenne": 27.9,
         "forecast": [
             {
                 "semaine": 1,
@@ -1881,12 +2059,12 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 2,
-                        "temperature": 25.1
+                        "temperature": 25.0
                     },
                     {
                         "date": "2026-09-11",
                         "weather_code": 3,
-                        "temperature": 26.9
+                        "temperature": 26.7
                     },
                     {
                         "date": "2026-09-12",
@@ -1969,13 +2147,13 @@
                 "daily": [
                     {
                         "date": "2026-09-10",
-                        "weather_code": 2,
-                        "temperature": 21.6
+                        "weather_code": 3,
+                        "temperature": 21.3
                     },
                     {
                         "date": "2026-09-11",
                         "weather_code": 3,
-                        "temperature": 21.8
+                        "temperature": 21.4
                     },
                     {
                         "date": "2026-09-12",
@@ -2069,16 +2247,16 @@
                     {
                         "date": "2026-09-12",
                         "weather_code": 3,
-                        "temperature": 28.0
+                        "temperature": 28.2
                     },
                     {
                         "date": "2026-09-13",
                         "weather_code": 3,
-                        "temperature": 31.1
+                        "temperature": 30.9
                     },
                     {
                         "date": "2026-09-14",
-                        "weather_code": 2,
+                        "weather_code": 3,
                         "temperature": 33.5
                     },
                     {
@@ -2152,8 +2330,8 @@
                     },
                     {
                         "date": "2026-09-11",
-                        "weather_code": 61,
-                        "temperature": 22.4
+                        "weather_code": 3,
+                        "temperature": 22.3
                     },
                     {
                         "date": "2026-09-12",
@@ -2229,7 +2407,7 @@
         "country": "FR",
         "lat": 47.39484,
         "long": 0.70398,
-        "temperature_moyenne": 24.1,
+        "temperature_moyenne": 24.2,
         "forecast": [
             {
                 "semaine": 1,
@@ -2237,16 +2415,16 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 3,
-                        "temperature": 21.7
+                        "temperature": 21.6
                     },
                     {
                         "date": "2026-09-11",
-                        "weather_code": 80,
-                        "temperature": 23.2
+                        "weather_code": 3,
+                        "temperature": 23.6
                     },
                     {
                         "date": "2026-09-12",
-                        "weather_code": 45,
+                        "weather_code": 3,
                         "temperature": 26.2
                     },
                     {
@@ -2407,7 +2585,7 @@
         "country": "FR",
         "lat": 43.5283,
         "long": 5.44973,
-        "temperature_moyenne": 27.1,
+        "temperature_moyenne": 27.0,
         "forecast": [
             {
                 "semaine": 1,
@@ -2415,12 +2593,12 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 3,
-                        "temperature": 25.7
+                        "temperature": 25.4
                     },
                     {
                         "date": "2026-09-11",
                         "weather_code": 3,
-                        "temperature": 26.6
+                        "temperature": 26.4
                     },
                     {
                         "date": "2026-09-12",
@@ -2504,17 +2682,17 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 3,
-                        "temperature": 21.7
+                        "temperature": 22.0
                     },
                     {
                         "date": "2026-09-11",
-                        "weather_code": 53,
-                        "temperature": 20.0
+                        "weather_code": 55,
+                        "temperature": 19.1
                     },
                     {
                         "date": "2026-09-12",
                         "weather_code": 3,
-                        "temperature": 23.1
+                        "temperature": 23.6
                     },
                     {
                         "date": "2026-09-13",
@@ -2585,7 +2763,7 @@
         "country": "BE",
         "lat": 51.20892,
         "long": 3.22424,
-        "temperature_moyenne": 19.9,
+        "temperature_moyenne": 19.8,
         "forecast": [
             {
                 "semaine": 1,
@@ -2593,17 +2771,17 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 3,
-                        "temperature": 20.1
+                        "temperature": 20.4
                     },
                     {
                         "date": "2026-09-11",
                         "weather_code": 61,
-                        "temperature": 20.8
+                        "temperature": 20.3
                     },
                     {
                         "date": "2026-09-12",
-                        "weather_code": 3,
-                        "temperature": 23.2
+                        "weather_code": 45,
+                        "temperature": 22.9
                     },
                     {
                         "date": "2026-09-13",
@@ -2674,7 +2852,7 @@
         "country": "BE",
         "lat": 51.05,
         "long": 3.71667,
-        "temperature_moyenne": 20.3,
+        "temperature_moyenne": 20.2,
         "forecast": [
             {
                 "semaine": 1,
@@ -2682,17 +2860,17 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 3,
-                        "temperature": 21.2
+                        "temperature": 21.6
                     },
                     {
                         "date": "2026-09-11",
-                        "weather_code": 61,
-                        "temperature": 21.1
+                        "weather_code": 55,
+                        "temperature": 20.0
                     },
                     {
                         "date": "2026-09-12",
                         "weather_code": 3,
-                        "temperature": 24.0
+                        "temperature": 23.9
                     },
                     {
                         "date": "2026-09-13",
@@ -2759,11 +2937,189 @@
         ]
     },
     {
+        "name": "Anvers",
+        "country": "BE",
+        "lat": 51.22047,
+        "long": 4.40026,
+        "temperature_moyenne": 20.0,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-09-10",
+                        "weather_code": 3,
+                        "temperature": 21.0
+                    },
+                    {
+                        "date": "2026-09-11",
+                        "weather_code": 53,
+                        "temperature": 20.6
+                    },
+                    {
+                        "date": "2026-09-12",
+                        "weather_code": 3,
+                        "temperature": 23.6
+                    },
+                    {
+                        "date": "2026-09-13",
+                        "weather_code": 80,
+                        "temperature": 20.9
+                    },
+                    {
+                        "date": "2026-09-14",
+                        "weather_code": 51,
+                        "temperature": 22.3
+                    },
+                    {
+                        "date": "2026-09-15",
+                        "weather_code": 51,
+                        "temperature": 23.6
+                    },
+                    {
+                        "date": "2026-09-16",
+                        "weather_code": 51,
+                        "temperature": 16.6
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-09-17",
+                        "weather_code": 80,
+                        "temperature": 15.5
+                    },
+                    {
+                        "date": "2026-09-18",
+                        "weather_code": 80,
+                        "temperature": 17.7
+                    },
+                    {
+                        "date": "2026-09-19",
+                        "weather_code": 53,
+                        "temperature": 18.3
+                    },
+                    {
+                        "date": "2026-09-20",
+                        "weather_code": 53,
+                        "temperature": 17.6
+                    },
+                    {
+                        "date": "2026-09-21",
+                        "weather_code": 2,
+                        "temperature": 18.9
+                    },
+                    {
+                        "date": "2026-09-22",
+                        "weather_code": 0,
+                        "temperature": 21.1
+                    },
+                    {
+                        "date": "2026-09-23",
+                        "weather_code": 1,
+                        "temperature": 22.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Liège",
+        "country": "BE",
+        "lat": 50.63373,
+        "long": 5.56749,
+        "temperature_moyenne": 20.0,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-09-10",
+                        "weather_code": 3,
+                        "temperature": 21.6
+                    },
+                    {
+                        "date": "2026-09-11",
+                        "weather_code": 3,
+                        "temperature": 18.2
+                    },
+                    {
+                        "date": "2026-09-12",
+                        "weather_code": 3,
+                        "temperature": 23.2
+                    },
+                    {
+                        "date": "2026-09-13",
+                        "weather_code": 55,
+                        "temperature": 19.9
+                    },
+                    {
+                        "date": "2026-09-14",
+                        "weather_code": 51,
+                        "temperature": 22.1
+                    },
+                    {
+                        "date": "2026-09-15",
+                        "weather_code": 95,
+                        "temperature": 26.0
+                    },
+                    {
+                        "date": "2026-09-16",
+                        "weather_code": 51,
+                        "temperature": 16.2
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-09-17",
+                        "weather_code": 53,
+                        "temperature": 15.0
+                    },
+                    {
+                        "date": "2026-09-18",
+                        "weather_code": 53,
+                        "temperature": 17.2
+                    },
+                    {
+                        "date": "2026-09-19",
+                        "weather_code": 51,
+                        "temperature": 19.4
+                    },
+                    {
+                        "date": "2026-09-20",
+                        "weather_code": 53,
+                        "temperature": 17.3
+                    },
+                    {
+                        "date": "2026-09-21",
+                        "weather_code": 3,
+                        "temperature": 19.3
+                    },
+                    {
+                        "date": "2026-09-22",
+                        "weather_code": 3,
+                        "temperature": 21.1
+                    },
+                    {
+                        "date": "2026-09-23",
+                        "weather_code": 1,
+                        "temperature": 23.7
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Namur",
         "country": "BE",
         "lat": 50.4669,
         "long": 4.86746,
-        "temperature_moyenne": 19.7,
+        "temperature_moyenne": 19.8,
         "forecast": [
             {
                 "semaine": 1,
@@ -2775,13 +3131,13 @@
                     },
                     {
                         "date": "2026-09-11",
-                        "weather_code": 51,
-                        "temperature": 18.3
+                        "weather_code": 3,
+                        "temperature": 19.0
                     },
                     {
                         "date": "2026-09-12",
                         "weather_code": 3,
-                        "temperature": 22.5
+                        "temperature": 23.2
                     },
                     {
                         "date": "2026-09-13",
@@ -2949,12 +3305,12 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 3,
-                        "temperature": 19.4
+                        "temperature": 19.5
                     },
                     {
                         "date": "2026-09-11",
                         "weather_code": 3,
-                        "temperature": 22.3
+                        "temperature": 22.4
                     },
                     {
                         "date": "2026-09-12",
@@ -3038,11 +3394,11 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 3,
-                        "temperature": 16.9
+                        "temperature": 17.1
                     },
                     {
                         "date": "2026-09-11",
-                        "weather_code": 45,
+                        "weather_code": 3,
                         "temperature": 20.0
                     },
                     {
@@ -3127,12 +3483,12 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 3,
-                        "temperature": 20.9
+                        "temperature": 21.2
                     },
                     {
                         "date": "2026-09-11",
                         "weather_code": 3,
-                        "temperature": 22.7
+                        "temperature": 22.8
                     },
                     {
                         "date": "2026-09-12",
@@ -3216,12 +3572,12 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 3,
-                        "temperature": 18.5
+                        "temperature": 18.6
                     },
                     {
                         "date": "2026-09-11",
                         "weather_code": 3,
-                        "temperature": 20.6
+                        "temperature": 20.5
                     },
                     {
                         "date": "2026-09-12",
@@ -3297,7 +3653,7 @@
         "country": "CH",
         "lat": 47.05048,
         "long": 8.30635,
-        "temperature_moyenne": 20.0,
+        "temperature_moyenne": 20.1,
         "forecast": [
             {
                 "semaine": 1,
@@ -3305,7 +3661,7 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 45,
-                        "temperature": 17.7
+                        "temperature": 18.4
                     },
                     {
                         "date": "2026-09-11",
@@ -3386,24 +3742,24 @@
         "country": "CH",
         "lat": 46.01008,
         "long": 8.96004,
-        "temperature_moyenne": 23.3,
+        "temperature_moyenne": 23.4,
         "forecast": [
             {
                 "semaine": 1,
                 "daily": [
                     {
                         "date": "2026-09-10",
-                        "weather_code": 80,
-                        "temperature": 21.2
+                        "weather_code": 95,
+                        "temperature": 22.0
                     },
                     {
                         "date": "2026-09-11",
                         "weather_code": 45,
-                        "temperature": 23.7
+                        "temperature": 23.9
                     },
                     {
                         "date": "2026-09-12",
-                        "weather_code": 3,
+                        "weather_code": 45,
                         "temperature": 22.9
                     },
                     {
@@ -3488,7 +3844,7 @@
                     {
                         "date": "2026-09-11",
                         "weather_code": 3,
-                        "temperature": 24.6
+                        "temperature": 24.7
                     },
                     {
                         "date": "2026-09-12",
@@ -3571,13 +3927,13 @@
                 "daily": [
                     {
                         "date": "2026-09-10",
-                        "weather_code": 61,
-                        "temperature": 24.1
+                        "weather_code": 80,
+                        "temperature": 24.2
                     },
                     {
                         "date": "2026-09-11",
-                        "weather_code": 45,
-                        "temperature": 25.6
+                        "weather_code": 3,
+                        "temperature": 25.5
                     },
                     {
                         "date": "2026-09-12",
@@ -3661,16 +4017,16 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 95,
-                        "temperature": 26.3
+                        "temperature": 26.2
                     },
                     {
                         "date": "2026-09-11",
                         "weather_code": 3,
-                        "temperature": 25.7
+                        "temperature": 25.5
                     },
                     {
                         "date": "2026-09-12",
-                        "weather_code": 3,
+                        "weather_code": 1,
                         "temperature": 27.6
                     },
                     {
@@ -3742,20 +4098,20 @@
         "country": "IT",
         "lat": 45.73764,
         "long": 7.31722,
-        "temperature_moyenne": 27.0,
+        "temperature_moyenne": 27.1,
         "forecast": [
             {
                 "semaine": 1,
                 "daily": [
                     {
                         "date": "2026-09-10",
-                        "weather_code": 80,
-                        "temperature": 24.2
+                        "weather_code": 95,
+                        "temperature": 24.5
                     },
                     {
                         "date": "2026-09-11",
                         "weather_code": 3,
-                        "temperature": 24.7
+                        "temperature": 25.1
                     },
                     {
                         "date": "2026-09-12",
@@ -3831,7 +4187,7 @@
         "country": "IT",
         "lat": 45.80819,
         "long": 9.0832,
-        "temperature_moyenne": 23.8,
+        "temperature_moyenne": 23.9,
         "forecast": [
             {
                 "semaine": 1,
@@ -3839,16 +4195,16 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 80,
-                        "temperature": 22.1
+                        "temperature": 22.4
                     },
                     {
                         "date": "2026-09-11",
                         "weather_code": 80,
-                        "temperature": 24.2
+                        "temperature": 24.9
                     },
                     {
                         "date": "2026-09-12",
-                        "weather_code": 3,
+                        "weather_code": 2,
                         "temperature": 24.1
                     },
                     {
@@ -3920,7 +4276,7 @@
         "country": "IT",
         "lat": 45.43854,
         "long": 10.9938,
-        "temperature_moyenne": 24.5,
+        "temperature_moyenne": 24.6,
         "forecast": [
             {
                 "semaine": 1,
@@ -3928,12 +4284,12 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 96,
-                        "temperature": 22.8
+                        "temperature": 23.5
                     },
                     {
                         "date": "2026-09-11",
-                        "weather_code": 95,
-                        "temperature": 25.2
+                        "weather_code": 80,
+                        "temperature": 25.4
                     },
                     {
                         "date": "2026-09-12",
@@ -4009,20 +4365,20 @@
         "country": "IT",
         "lat": 45.43713,
         "long": 12.33265,
-        "temperature_moyenne": 23.5,
+        "temperature_moyenne": 23.4,
         "forecast": [
             {
                 "semaine": 1,
                 "daily": [
                     {
                         "date": "2026-09-10",
-                        "weather_code": 96,
-                        "temperature": 21.8
+                        "weather_code": 99,
+                        "temperature": 21.3
                     },
                     {
                         "date": "2026-09-11",
                         "weather_code": 3,
-                        "temperature": 24.0
+                        "temperature": 23.8
                     },
                     {
                         "date": "2026-09-12",
@@ -4177,6 +4533,184 @@
                         "date": "2026-09-23",
                         "weather_code": 3,
                         "temperature": 26.8
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Saint-Sébastien",
+        "country": "ES",
+        "lat": 43.31283,
+        "long": -1.97499,
+        "temperature_moyenne": 24.3,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-09-10",
+                        "weather_code": 3,
+                        "temperature": 22.5
+                    },
+                    {
+                        "date": "2026-09-11",
+                        "weather_code": 3,
+                        "temperature": 22.6
+                    },
+                    {
+                        "date": "2026-09-12",
+                        "weather_code": 3,
+                        "temperature": 23.5
+                    },
+                    {
+                        "date": "2026-09-13",
+                        "weather_code": 3,
+                        "temperature": 24.8
+                    },
+                    {
+                        "date": "2026-09-14",
+                        "weather_code": 3,
+                        "temperature": 29.2
+                    },
+                    {
+                        "date": "2026-09-15",
+                        "weather_code": 51,
+                        "temperature": 27.4
+                    },
+                    {
+                        "date": "2026-09-16",
+                        "weather_code": 51,
+                        "temperature": 19.4
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-09-17",
+                        "weather_code": 51,
+                        "temperature": 19.7
+                    },
+                    {
+                        "date": "2026-09-18",
+                        "weather_code": 51,
+                        "temperature": 21.2
+                    },
+                    {
+                        "date": "2026-09-19",
+                        "weather_code": 2,
+                        "temperature": 22.5
+                    },
+                    {
+                        "date": "2026-09-20",
+                        "weather_code": 51,
+                        "temperature": 22.1
+                    },
+                    {
+                        "date": "2026-09-21",
+                        "weather_code": 3,
+                        "temperature": 25.7
+                    },
+                    {
+                        "date": "2026-09-22",
+                        "weather_code": 2,
+                        "temperature": 26.6
+                    },
+                    {
+                        "date": "2026-09-23",
+                        "weather_code": 3,
+                        "temperature": 32.4
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pampelune",
+        "country": "ES",
+        "lat": 42.81687,
+        "long": -1.64323,
+        "temperature_moyenne": 26.3,
+        "forecast": [
+            {
+                "semaine": 1,
+                "daily": [
+                    {
+                        "date": "2026-09-10",
+                        "weather_code": 3,
+                        "temperature": 23.6
+                    },
+                    {
+                        "date": "2026-09-11",
+                        "weather_code": 3,
+                        "temperature": 24.7
+                    },
+                    {
+                        "date": "2026-09-12",
+                        "weather_code": 3,
+                        "temperature": 28.9
+                    },
+                    {
+                        "date": "2026-09-13",
+                        "weather_code": 3,
+                        "temperature": 30.8
+                    },
+                    {
+                        "date": "2026-09-14",
+                        "weather_code": 3,
+                        "temperature": 31.6
+                    },
+                    {
+                        "date": "2026-09-15",
+                        "weather_code": 3,
+                        "temperature": 31.3
+                    },
+                    {
+                        "date": "2026-09-16",
+                        "weather_code": 51,
+                        "temperature": 17.4
+                    }
+                ]
+            },
+            {
+                "semaine": 2,
+                "daily": [
+                    {
+                        "date": "2026-09-17",
+                        "weather_code": 3,
+                        "temperature": 18.2
+                    },
+                    {
+                        "date": "2026-09-18",
+                        "weather_code": 2,
+                        "temperature": 22.0
+                    },
+                    {
+                        "date": "2026-09-19",
+                        "weather_code": 2,
+                        "temperature": 26.4
+                    },
+                    {
+                        "date": "2026-09-20",
+                        "weather_code": 2,
+                        "temperature": 24.1
+                    },
+                    {
+                        "date": "2026-09-21",
+                        "weather_code": 1,
+                        "temperature": 29.5
+                    },
+                    {
+                        "date": "2026-09-22",
+                        "weather_code": 2,
+                        "temperature": 30.1
+                    },
+                    {
+                        "date": "2026-09-23",
+                        "weather_code": 3,
+                        "temperature": 29.4
                     }
                 ]
             }
@@ -4373,12 +4907,12 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 3,
-                        "temperature": 17.6
+                        "temperature": 18.4
                     },
                     {
                         "date": "2026-09-11",
                         "weather_code": 3,
-                        "temperature": 19.7
+                        "temperature": 19.6
                     },
                     {
                         "date": "2026-09-12",
@@ -4462,7 +4996,7 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 3,
-                        "temperature": 21.7
+                        "temperature": 21.6
                     },
                     {
                         "date": "2026-09-11",
@@ -4551,7 +5085,7 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 3,
-                        "temperature": 20.6
+                        "temperature": 20.2
                     },
                     {
                         "date": "2026-09-11",
@@ -4632,7 +5166,7 @@
         "country": "DE",
         "lat": 50.11552,
         "long": 8.68417,
-        "temperature_moyenne": 21.1,
+        "temperature_moyenne": 21.2,
         "forecast": [
             {
                 "semaine": 1,
@@ -4645,7 +5179,7 @@
                     {
                         "date": "2026-09-11",
                         "weather_code": 3,
-                        "temperature": 22.7
+                        "temperature": 23.2
                     },
                     {
                         "date": "2026-09-12",
@@ -4721,7 +5255,7 @@
         "country": "DE",
         "lat": 50.93333,
         "long": 6.95,
-        "temperature_moyenne": 20.2,
+        "temperature_moyenne": 20.4,
         "forecast": [
             {
                 "semaine": 1,
@@ -4729,17 +5263,17 @@
                     {
                         "date": "2026-09-10",
                         "weather_code": 3,
-                        "temperature": 21.1
+                        "temperature": 21.5
                     },
                     {
                         "date": "2026-09-11",
-                        "weather_code": 51,
-                        "temperature": 18.2
+                        "weather_code": 3,
+                        "temperature": 19.7
                     },
                     {
                         "date": "2026-09-12",
                         "weather_code": 3,
-                        "temperature": 21.7
+                        "temperature": 23.2
                     },
                     {
                         "date": "2026-09-13",
