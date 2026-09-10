@@ -1,9 +1,6 @@
-import { readFileSync } from 'node:fs'
-import { resolve } from 'node:path'
+// data.json est importe au build : en production le serveur Nitro tourne
+// depuis .output/ et n'a pas acces au dossier public/ du depot, donc une
+// lecture disque via process.cwd() echoue (500).
+import data from '../../public/data.json'
 
-export default defineEventHandler(() => {
-  // Read the static data.json from the public directory
-  const filePath = resolve(process.cwd(), 'public', 'data.json')
-  const raw = readFileSync(filePath, 'utf-8')
-  return JSON.parse(raw)
-})
+export default defineEventHandler(() => data)
