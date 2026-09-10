@@ -36,24 +36,14 @@ const endMax = computed(() => {
 
 const canSubmit = computed(() => !!startDate.value && !!endDate.value)
 
-const endDateInput = ref<HTMLInputElement | null>(null)
-
-// Chrome n'ouvre le calendrier que si on vise l'icône, quelques pixels de large.
-// Un clic n'importe où dans le champ ouvre donc le sélecteur, comme le champ de
-// fin qui s'ouvre tout seul après le choix de la date de départ.
-function openPicker(event: MouseEvent) {
-  const input = event.currentTarget as HTMLInputElement
-  if (input.disabled) return
-  try { input.showPicker() } catch { /* déjà ouvert, ou navigateur sans showPicker */ }
-}
+const endDateInput = ref<{ showPicker: () => void } | null>(null)
 
 // Sync dates vers le store immédiatement (pour que startIndex/endIndex soient réactifs)
 watch(startDate, (v) => {
   store.startDate = v || null
   if (v) {
-    nextTick(() => {
-      try { endDateInput.value?.showPicker() } catch { endDateInput.value?.focus() }
-    })
+    // DateField encapsule déjà le repli sur focus() si showPicker n'existe pas.
+    nextTick(() => endDateInput.value?.showPicker())
   }
 })
 watch(endDate, (v) => { store.endDate = v || null })
@@ -161,36 +151,20 @@ function toggleType(tag: CityTag) {
           <div class="flex gap-3">
             <div class="flex-1">
               <label class="block text-xs mb-1" :style="{ color: 'rgb(var(--color-text-muted))' }">Du</label>
-              <input
+              <DateField
                 v-model="startDate"
-                type="date"
                 :min="today"
                 :max="startMax"
-                class="w-full rounded-lg px-3 py-2 text-sm border"
-                @click="openPicker"
-                :style="{
-                  background: 'rgb(var(--color-bg))',
-                  borderColor: 'rgb(var(--color-border))',
-                  color: 'rgb(var(--color-text))',
-                }"
               />
             </div>
             <div class="flex-1">
               <label class="block text-xs mb-1" :style="{ color: 'rgb(var(--color-text-muted))' }">Au</label>
-              <input
+              <DateField
                 ref="endDateInput"
                 v-model="endDate"
-                type="date"
                 :min="endMin"
                 :max="endMax"
                 :disabled="!startDate"
-                class="w-full rounded-lg px-3 py-2 text-sm border disabled:opacity-50"
-                @click="openPicker"
-                :style="{
-                  background: 'rgb(var(--color-bg))',
-                  borderColor: 'rgb(var(--color-border))',
-                  color: 'rgb(var(--color-text))',
-                }"
               />
             </div>
           </div>
@@ -298,35 +272,21 @@ function toggleType(tag: CityTag) {
       <div class="space-y-1.5">
         <div>
           <label class="block text-xs mb-0.5" :style="{ color: 'rgb(var(--color-text-muted))' }">Du</label>
-          <input
+          <DateField
             v-model="startDate"
-            type="date"
             :min="today"
             :max="startMax"
-            class="w-full rounded-lg px-2 py-1.5 text-sm border"
-            @click="openPicker"
-            :style="{
-              background: 'rgb(var(--color-bg))',
-              borderColor: 'rgb(var(--color-border))',
-              color: 'rgb(var(--color-text))',
-            }"
+            compact
           />
         </div>
         <div>
           <label class="block text-xs mb-0.5" :style="{ color: 'rgb(var(--color-text-muted))' }">Au</label>
-          <input
+          <DateField
             v-model="endDate"
-            type="date"
             :min="endMin"
             :max="endMax"
             :disabled="!startDate"
-            class="w-full rounded-lg px-2 py-1.5 text-sm border disabled:opacity-50"
-            @click="openPicker"
-            :style="{
-              background: 'rgb(var(--color-bg))',
-              borderColor: 'rgb(var(--color-border))',
-              color: 'rgb(var(--color-text))',
-            }"
+            compact
           />
         </div>
       </div>

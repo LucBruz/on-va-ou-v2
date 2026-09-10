@@ -41,6 +41,29 @@ body {
   color: rgb(var(--color-text));
 }
 
+/* Champs date — l'icône native n'est cliquable que sur quelques pixels et reste
+   peinte par le navigateur, donc sombre sur fond sombre. On l'étire sur tout le
+   champ et on la rend invisible : un clic n'importe où ouvre le calendrier, et
+   l'icône visible est celle dessinée par DateField.vue, à la couleur du thème. */
+input[type="date"] {
+  position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+input[type="date"]:disabled::-webkit-calendar-picker-indicator {
+  cursor: not-allowed;
+}
+
 /* Scrollbar — s'adapte automatiquement au thème via les variables CSS */
 * {
   scrollbar-width: thin;
