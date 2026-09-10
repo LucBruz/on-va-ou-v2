@@ -1,6 +1,8 @@
 import requests
 import json
 import os
+import sys
+import time
 from dataclasses import dataclass, field
 
 GEOCODE_BASE_URL = "https://geocoding-api.open-meteo.com/v1/search?"
@@ -48,15 +50,47 @@ class CityData:
     forecast: list = field(default_factory=list)
 
 
-def get_json(url, params):
-    # Without a timeout, requests waits forever: a stalled connection hangs the
-    # whole job until the runner's own limit kicks in.
-    response = requests.get(url, params=params, timeout=(10, 30))
-    response.raise_for_status()
-    return json.loads(response.text)
+def get_json(url, params, attempts=4):
+    # Open-Meteo silently drops connections from CI runner IP ranges: the TLS
+    # handshake gets no answer at all, so without a timeout requests waits
+    # forever. Bound every call, then retry with backoff to ride out the drop.
+    delay = 3
+    for attempt in range(1, attempts + 1):
+        try:
+            response = requests.get(url, params=params, timeout=(10, 30))
+            response.raise_for_status()
+            return json.loads(response.text)
+        except requests.RequestException as exc:
+            if attempt == attempts:
+                raise
+            print(f"  tentative {attempt}/{attempts} echouee ({type(exc).__name__}), retry dans {delay}s")
+            time.sleep(delay)
+            delay *= 2
 
 
-def get_city_coords(city_name):
+def load_known_coords():
+    """Coordinates never change, so reuse the ones already in data.json.
+
+    This keeps the geocoding API — the host that actually fails in CI — off the
+    steady-state path entirely, and halves the number of requests per run.
+    """
+    try:
+        with open(OUTPUT_PATH, encoding='utf-8') as f:
+            cached = json.load(f)
+    except (OSError, ValueError):
+        return {}
+
+    return {
+        city["name"]: (city["lat"], city["long"])
+        for city in cached
+        if city.get("lat") is not None and city.get("long") is not None
+    }
+
+
+def get_city_coords(city_name, known_coords):
+    if city_name in known_coords:
+        return known_coords[city_name]
+
     params = {
         "name": city_name,
         "count": 1,
@@ -72,65 +106,78 @@ def get_city_coords(city_name):
 
 def get_forecasts():
     all_cities = []
+    known_coords = load_known_coords()
+    print(f"{len(known_coords)} villes avec coordonnées en cache (pas de géocodage).")
 
     for country_code, city_list in CITIES.items():
         for city_name in city_list:
-            lat, long = get_city_coords(city_name)
-            if lat is None:
-                print(f"Ville {city_name} non trouvée.")
+            try:
+                city = fetch_city(city_name, country_code, known_coords)
+            except requests.RequestException as exc:
+                # One unreachable city must not throw away every other result.
+                print(f"ECHEC reseau pour {city_name}: {type(exc).__name__}")
                 continue
 
-            city = CityData(
-                name=city_name,
-                country=country_code,
-                lat=lat,
-                long=long,
-                temperature_moyenne=0,
-                forecast=[]
-            )
+            if city is None:
+                continue
 
-            params = {
-                "latitude": lat,
-                "longitude": long,
-                "daily": "weathercode,temperature_2m_max",
-                "timezone": "Europe/London",
-                "forecast_days": 14
-            }
-
-            data = get_json(FORECAST_BASE_URL, params)
-
-            if "daily" in data and "time" in data["daily"] and "temperature_2m_max" in data["daily"]:
-                days = data["daily"]["time"]
-                weather_codes = data["daily"]["weathercode"]
-                temps = data["daily"]["temperature_2m_max"]
-
-                temp_moy = 0
-                weeks = []
-                current_week = None
-
-                for i in range(len(days)):
-                    day = DailyForecast(
-                        date=days[i],
-                        weather_code=weather_codes[i],
-                        temperature=temps[i]
-                    )
-                    temp_moy += temps[i]
-
-                    week_number = i // 7 + 1
-                    if current_week is None or current_week.semaine != week_number:
-                        current_week = Semaine(semaine=week_number, daily=[])
-                        weeks.append(current_week)
-
-                    current_week.daily.append(day)
-
-                city.forecast = weeks
-                city.temperature_moyenne = round(temp_moy / len(days), 1)
-                all_cities.append(city)
-                print(f"OK: {city_name} ({country_code})")
-            else:
-                print(f"Pas de données météo pour {city_name}.")
+            all_cities.append(city)
+            print(f"OK: {city_name} ({country_code})")
 
     return all_cities
+
+
+def fetch_city(city_name, country_code, known_coords):
+    lat, long = get_city_coords(city_name, known_coords)
+    if lat is None:
+        print(f"Ville {city_name} non trouvée.")
+        return None
+
+    params = {
+        "latitude": lat,
+        "longitude": long,
+        "daily": "weathercode,temperature_2m_max",
+        "timezone": "Europe/London",
+        "forecast_days": 14
+    }
+
+    data = get_json(FORECAST_BASE_URL, params)
+
+    if not ("daily" in data and "time" in data["daily"] and "temperature_2m_max" in data["daily"]):
+        print(f"Pas de données météo pour {city_name}.")
+        return None
+
+    days = data["daily"]["time"]
+    weather_codes = data["daily"]["weathercode"]
+    temps = data["daily"]["temperature_2m_max"]
+
+    temp_moy = 0
+    weeks = []
+    current_week = None
+
+    for i in range(len(days)):
+        day = DailyForecast(
+            date=days[i],
+            weather_code=weather_codes[i],
+            temperature=temps[i]
+        )
+        temp_moy += temps[i]
+
+        week_number = i // 7 + 1
+        if current_week is None or current_week.semaine != week_number:
+            current_week = Semaine(semaine=week_number, daily=[])
+            weeks.append(current_week)
+
+        current_week.daily.append(day)
+
+    return CityData(
+        name=city_name,
+        country=country_code,
+        lat=lat,
+        long=long,
+        temperature_moyenne=round(temp_moy / len(days), 1),
+        forecast=weeks
+    )
 
 
 def obj_dict(obj):
@@ -143,7 +190,17 @@ def obj_dict(obj):
 if __name__ == "__main__":
     print("Récupération des données météo...")
     weather_data = get_forecasts()
-    print(f"\n{len(weather_data)} villes récupérées.")
+
+    expected = sum(len(city_list) for city_list in CITIES.values())
+    minimum = int(expected * 0.9)
+    print(f"\n{len(weather_data)}/{expected} villes récupérées.")
+
+    # Per-city tolerance means a bad run can still finish. Refuse to overwrite a
+    # complete data.json with a degraded one — a short file would silently
+    # shrink the app's city list.
+    if len(weather_data) < minimum:
+        print(f"ABANDON: moins de {minimum} villes, data.json laissé intact.")
+        sys.exit(1)
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
