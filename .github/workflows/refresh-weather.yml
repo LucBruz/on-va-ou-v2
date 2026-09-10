@@ -8,6 +8,7 @@ on:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 15     # A healthy run takes ~2 min; fail fast instead of burning the 6h default
     permissions:
       contents: write       # Required to push the updated data.json
 
@@ -28,6 +29,8 @@ jobs:
         run: python scripts/fetch_weather.py
 
       - name: Commit updated data
+        env:
+          GIT_TERMINAL_PROMPT: 0   # Fail loudly instead of blocking on a credential prompt
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

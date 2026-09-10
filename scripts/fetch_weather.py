@@ -49,7 +49,9 @@ class CityData:
 
 
 def get_json(url, params):
-    response = requests.get(url, params=params)
+    # Without a timeout, requests waits forever: a stalled connection hangs the
+    # whole job until the runner's own limit kicks in.
+    response = requests.get(url, params=params, timeout=(10, 30))
     response.raise_for_status()
     return json.loads(response.text)
 
