@@ -26,6 +26,11 @@ OUTPUT_PATH = os.path.join(
     'public', 'data.json'
 )
 
+COORDS_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'coords.json')
+
+# Open-Meteo throttles CI runner IPs, so pace the requests rather than sprinting.
+DELAY_BETWEEN_CITIES = 0.3
+
 
 @dataclass
 class DailyForecast:
@@ -50,11 +55,12 @@ class CityData:
     forecast: list = field(default_factory=list)
 
 
-def get_json(url, params, attempts=4):
+def get_json(url, params, attempts=6):
     # Open-Meteo silently drops connections from CI runner IP ranges: the TLS
     # handshake gets no answer at all, so without a timeout requests waits
     # forever. Bound every call, then retry with backoff to ride out the drop.
-    delay = 3
+    # Run #159 lost 6 cities with 4 attempts, hence the more patient schedule.
+    delay = 5
     for attempt in range(1, attempts + 1):
         try:
             response = requests.get(url, params=params, timeout=(10, 30))
@@ -69,22 +75,24 @@ def get_json(url, params, attempts=4):
 
 
 def load_known_coords():
-    """Coordinates never change, so reuse the ones already in data.json.
+    """Read coordinates from coords.json, which this script never rewrites.
 
-    This keeps the geocoding API — the host that actually fails in CI — off the
-    steady-state path entirely, and halves the number of requests per run.
+    Coordinates never change, so looking them up keeps the geocoding API — the
+    host that actually fails in CI — off the steady-state path, and halves the
+    number of requests per run.
+
+    Deliberately NOT sourced from data.json: a run that drops a city would drop
+    it from the cache too, sending the next run back to the failing geocoder and
+    making the loss permanent.
     """
     try:
-        with open(OUTPUT_PATH, encoding='utf-8') as f:
+        with open(COORDS_PATH, encoding='utf-8') as f:
             cached = json.load(f)
     except (OSError, ValueError):
+        print(f"ATTENTION: {COORDS_PATH} illisible, géocodage complet nécessaire.")
         return {}
 
-    return {
-        city["name"]: (city["lat"], city["long"])
-        for city in cached
-        if city.get("lat") is not None and city.get("long") is not None
-    }
+    return {name: (lat, long) for name, (lat, long) in cached.items()}
 
 
 def get_city_coords(city_name, known_coords):
@@ -109,8 +117,13 @@ def get_forecasts():
     known_coords = load_known_coords()
     print(f"{len(known_coords)} villes avec coordonnées en cache (pas de géocodage).")
 
+    first = True
     for country_code, city_list in CITIES.items():
         for city_name in city_list:
+            if not first:
+                time.sleep(DELAY_BETWEEN_CITIES)
+            first = False
+
             try:
                 city = fetch_city(city_name, country_code, known_coords)
             except requests.RequestException as exc:
@@ -192,14 +205,15 @@ if __name__ == "__main__":
     weather_data = get_forecasts()
 
     expected = sum(len(city_list) for city_list in CITIES.values())
-    minimum = int(expected * 0.9)
     print(f"\n{len(weather_data)}/{expected} villes récupérées.")
 
-    # Per-city tolerance means a bad run can still finish. Refuse to overwrite a
-    # complete data.json with a degraded one — a short file would silently
-    # shrink the app's city list.
-    if len(weather_data) < minimum:
-        print(f"ABANDON: moins de {minimum} villes, data.json laissé intact.")
+    # Per-city tolerance means a bad run can still finish. Publishing a short
+    # file would silently shrink the app's city list, and yesterday's complete
+    # data beats today's incomplete data — so this is all or nothing.
+    if len(weather_data) < expected:
+        got = {city.name for city in weather_data}
+        lost = [n for lst in CITIES.values() for n in lst if n not in got]
+        print(f"ABANDON: villes manquantes {lost}, data.json laissé intact.")
         sys.exit(1)
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
