@@ -6,6 +6,7 @@ import { Slider } from '@/components/ui/slider'
 
 const props = defineProps<{ compact?: boolean }>()
 const store = useWeatherStore()
+const { t } = useI18n()
 
 const startDate = ref(store.startDate ?? '')
 const endDate = ref(store.endDate ?? '')
@@ -82,12 +83,17 @@ function confirmSearch() {
 
 const COUNTRIES = ['FR', 'BE', 'CH', 'IT', 'ES', 'DE']
 
-const AMBIANCES: { key: CityTag; emoji: string; label: string }[] = [
-  { key: 'balneaire', emoji: '🏖️', label: 'Balnéaire' },
-  { key: 'randonnee', emoji: '🥾', label: 'Randonnée' },
-  { key: 'tourisme', emoji: '🏛️', label: 'Tourisme' },
-  { key: 'montagne', emoji: '⛰️', label: 'Montagne' },
+const AMBIANCE_EMOJIS: { key: CityTag; emoji: string }[] = [
+  { key: 'balneaire', emoji: '🏖️' },
+  { key: 'randonnee', emoji: '🥾' },
+  { key: 'tourisme', emoji: '🏛️' },
+  { key: 'montagne', emoji: '⛰️' },
 ]
+
+// computed : les libellés doivent suivre le changement de langue
+const AMBIANCES = computed(() =>
+  AMBIANCE_EMOJIS.map(a => ({ ...a, label: t(`tag.${a.key}`) })),
+)
 
 function toggleCountry(code: string) {
   const idx = store.selectedCountries.indexOf(code)
@@ -119,7 +125,8 @@ function toggleType(tag: CityTag) {
       }"
     >
       <!-- Toggle thème -->
-      <div class="absolute top-3 right-3">
+      <div class="absolute top-3 right-3 flex items-center gap-1">
+        <LanguageToggle />
         <ThemeToggle />
       </div>
 
@@ -136,7 +143,7 @@ function toggleType(tag: CityTag) {
           class="mt-1 text-sm"
           :style="{ color: 'rgb(var(--color-text-muted))' }"
         >
-          Trouvez la destination parfaite selon la météo
+          {{ t('hero.subtitle') }}
         </p>
       </div>
 
@@ -147,10 +154,10 @@ function toggleType(tag: CityTag) {
           <label
             class="block text-xs font-semibold uppercase tracking-wide mb-2"
             :style="{ color: 'rgb(var(--color-text-muted))' }"
-          >Quand ?</label>
+          >{{ t('config.when') }}</label>
           <div class="flex gap-3">
             <div class="flex-1">
-              <label class="block text-xs mb-1" :style="{ color: 'rgb(var(--color-text-muted))' }">Du</label>
+              <label class="block text-xs mb-1" :style="{ color: 'rgb(var(--color-text-muted))' }">{{ t('config.from') }}</label>
               <DateField
                 v-model="startDate"
                 :min="today"
@@ -158,7 +165,7 @@ function toggleType(tag: CityTag) {
               />
             </div>
             <div class="flex-1">
-              <label class="block text-xs mb-1" :style="{ color: 'rgb(var(--color-text-muted))' }">Au</label>
+              <label class="block text-xs mb-1" :style="{ color: 'rgb(var(--color-text-muted))' }">{{ t('config.to') }}</label>
               <DateField
                 ref="endDateInput"
                 v-model="endDate"
@@ -175,13 +182,13 @@ function toggleType(tag: CityTag) {
           <label
             class="block text-xs font-semibold uppercase tracking-wide"
             :style="{ color: 'rgb(var(--color-text-muted))' }"
-          >Préférences</label>
+          >{{ t('config.preferences') }}</label>
 
           <!-- Distance -->
           <div>
             <div class="flex justify-between text-xs mb-2" :style="{ color: 'rgb(var(--color-text))' }">
-              <span>Distance max</span>
-              <span class="font-medium">{{ maxDistance[0] === 1500 ? 'Illimitée' : `${maxDistance[0]} km` }}</span>
+              <span>{{ t('config.maxDistance') }}</span>
+              <span class="font-medium">{{ maxDistance[0] === 1500 ? t('config.unlimited') : `${maxDistance[0]} ${t('common.km')}` }}</span>
             </div>
             <Slider v-model="maxDistance" :min="0" :max="1500" :step="50" />
           </div>
@@ -189,7 +196,7 @@ function toggleType(tag: CityTag) {
           <!-- Température -->
           <div>
             <div class="flex justify-between text-xs mb-2" :style="{ color: 'rgb(var(--color-text))' }">
-              <span>Température minimale</span>
+              <span>{{ t('config.minTemp') }}</span>
               <span class="font-medium">{{ minTemperature[0] }}°C</span>
             </div>
             <Slider v-model="minTemperature" :min="-5" :max="35" :step="1" />
@@ -198,8 +205,8 @@ function toggleType(tag: CityTag) {
           <!-- Tolérance -->
           <div>
             <div class="flex justify-between text-xs mb-2" :style="{ color: 'rgb(var(--color-text))' }">
-              <span>Jours de mauvais temps acceptés</span>
-              <span class="font-medium">{{ toleranceDays[0] }} j</span>
+              <span>{{ t('config.badDays') }}</span>
+              <span class="font-medium">{{ toleranceDays[0] }} {{ t('common.days') }}</span>
             </div>
             <Slider v-model="toleranceDays" :min="0" :max="14" :step="1" />
           </div>
@@ -210,7 +217,7 @@ function toggleType(tag: CityTag) {
           <label
             class="block text-xs font-semibold uppercase tracking-wide mb-2"
             :style="{ color: 'rgb(var(--color-text-muted))' }"
-          >Pays</label>
+          >{{ t('config.countries') }}</label>
           <div class="flex flex-wrap gap-2">
             <button
               v-for="code in COUNTRIES"
@@ -231,7 +238,7 @@ function toggleType(tag: CityTag) {
           <label
             class="block text-xs font-semibold uppercase tracking-wide mb-2"
             :style="{ color: 'rgb(var(--color-text-muted))' }"
-          >Ambiances</label>
+          >{{ t('config.ambiances') }}</label>
           <div class="flex flex-wrap gap-2">
             <button
               v-for="a in AMBIANCES"
@@ -254,7 +261,7 @@ function toggleType(tag: CityTag) {
         :disabled="!canSubmit"
         @click="confirmSearch"
       >
-        Trouver ma destination
+        {{ t('hero.submit') }}
       </Button>
 
     </div>
@@ -268,10 +275,10 @@ function toggleType(tag: CityTag) {
       <label
         class="block text-xs font-semibold uppercase tracking-wide mb-1"
         :style="{ color: 'rgb(var(--color-text-muted))' }"
-      >Dates</label>
+      >{{ t('config.dates') }}</label>
       <div class="space-y-1.5">
         <div>
-          <label class="block text-xs mb-0.5" :style="{ color: 'rgb(var(--color-text-muted))' }">Du</label>
+          <label class="block text-xs mb-0.5" :style="{ color: 'rgb(var(--color-text-muted))' }">{{ t('config.from') }}</label>
           <DateField
             v-model="startDate"
             :min="today"
@@ -280,7 +287,7 @@ function toggleType(tag: CityTag) {
           />
         </div>
         <div>
-          <label class="block text-xs mb-0.5" :style="{ color: 'rgb(var(--color-text-muted))' }">Au</label>
+          <label class="block text-xs mb-0.5" :style="{ color: 'rgb(var(--color-text-muted))' }">{{ t('config.to') }}</label>
           <DateField
             v-model="endDate"
             :min="endMin"
@@ -295,8 +302,8 @@ function toggleType(tag: CityTag) {
     <!-- Distance -->
     <div>
       <div class="flex justify-between text-xs mb-1" :style="{ color: 'rgb(var(--color-text))' }">
-        <span>Distance max</span>
-        <span class="font-medium">{{ maxDistance[0] === 1500 ? 'Illimitée' : `${maxDistance[0]} km` }}</span>
+        <span>{{ t('config.maxDistance') }}</span>
+        <span class="font-medium">{{ maxDistance[0] === 1500 ? t('config.unlimited') : `${maxDistance[0]} ${t('common.km')}` }}</span>
       </div>
       <Slider v-model="maxDistance" :min="0" :max="1500" :step="50" />
     </div>
@@ -304,7 +311,7 @@ function toggleType(tag: CityTag) {
     <!-- Température -->
     <div>
       <div class="flex justify-between text-xs mb-1" :style="{ color: 'rgb(var(--color-text))' }">
-        <span>Temp. minimale</span>
+        <span>{{ t('config.minTempShort') }}</span>
         <span class="font-medium">{{ minTemperature[0] }}°C</span>
       </div>
       <Slider v-model="minTemperature" :min="-5" :max="35" :step="1" />
@@ -313,8 +320,8 @@ function toggleType(tag: CityTag) {
     <!-- Tolérance -->
     <div>
       <div class="flex justify-between text-xs mb-1" :style="{ color: 'rgb(var(--color-text))' }">
-        <span>Mauvais temps</span>
-        <span class="font-medium">{{ toleranceDays[0] }} j</span>
+        <span>{{ t('config.badDaysShort') }}</span>
+        <span class="font-medium">{{ toleranceDays[0] }} {{ t('common.days') }}</span>
       </div>
       <Slider v-model="toleranceDays" :min="0" :max="14" :step="1" />
     </div>
@@ -324,7 +331,7 @@ function toggleType(tag: CityTag) {
       <label
         class="block text-xs font-semibold uppercase tracking-wide mb-1"
         :style="{ color: 'rgb(var(--color-text-muted))' }"
-      >Pays</label>
+      >{{ t('config.countries') }}</label>
       <div class="flex flex-wrap gap-1">
         <button
           v-for="code in COUNTRIES"
@@ -345,7 +352,7 @@ function toggleType(tag: CityTag) {
       <label
         class="block text-xs font-semibold uppercase tracking-wide mb-1"
         :style="{ color: 'rgb(var(--color-text-muted))' }"
-      >Ambiances</label>
+      >{{ t('config.ambiances') }}</label>
       <div class="flex flex-wrap gap-1">
         <button
           v-for="a in AMBIANCES"
@@ -367,20 +374,20 @@ function toggleType(tag: CityTag) {
       :style="{ background: 'rgb(var(--color-bg))', borderColor: 'rgb(var(--color-border))' }"
     >
       <p class="text-xs font-semibold uppercase tracking-wide" :style="{ color: 'rgb(var(--color-text-muted))' }">
-        Badges
+        {{ t('badge.title') }}
       </p>
       <div class="space-y-1.5">
         <div class="flex items-start gap-2 text-xs" :style="{ color: 'rgb(var(--color-text))' }">
           <span class="shrink-0">🌡️</span>
-          <span><strong>Température</strong> — parmi les destinations les plus chaudes de la sélection</span>
+          <span><strong>{{ t('badge.temperature') }}</strong> — {{ t('badge.temperatureDesc') }}</span>
         </div>
         <div class="flex items-start gap-2 text-xs" :style="{ color: 'rgb(var(--color-text))' }">
           <span class="shrink-0">☀️</span>
-          <span><strong>Soleil</strong> — le plus de jours ensoleillés sur votre période</span>
+          <span><strong>{{ t('badge.sun') }}</strong> — {{ t('badge.sunDesc') }}</span>
         </div>
         <div class="flex items-start gap-2 text-xs" :style="{ color: 'rgb(var(--color-text))' }">
           <span class="shrink-0">🚗</span>
-          <span><strong>Économe</strong> — dans un rayon de 100 km autour de la ville la plus proche (tri Proximité requis)</span>
+          <span><strong>{{ t('badge.eco') }}</strong> — {{ t('badge.ecoDesc') }}</span>
         </div>
       </div>
     </div>

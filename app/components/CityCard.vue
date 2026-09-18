@@ -5,10 +5,12 @@ import { getWeatherIcon } from '~/utils/weatherIcons'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import type { CityProposition } from '~/types/weather'
+import type { CityTag } from '~/data/cities'
 
 const props = defineProps<{ ville: CityProposition }>()
 
 const store = useWeatherStore()
+const { t, dateLocale } = useI18n()
 
 // Clé unique pour les Sets de badges
 const key = computed(() => props.ville.name + props.ville.country)
@@ -28,9 +30,9 @@ const allDays = computed(() => {
   return all.slice(store.startIndex, store.endIndex + 1)
 })
 
-// Affichage du jour abrégé en français
+// Affichage du jour abrégé dans la langue courante
 function formatDay(dateStr: string): string {
-  return new Date(dateStr).toLocaleDateString('fr-FR', { weekday: 'short' }).slice(0, 3)
+  return new Date(dateStr).toLocaleDateString(dateLocale.value, { weekday: 'short' }).slice(0, 3)
 }
 
 // Température moyenne sur la plage sélectionnée ou globale
@@ -78,12 +80,19 @@ const gradientId = computed(() =>
   `sg-${props.ville.name}-${props.ville.country}`.replace(/[^a-zA-Z0-9-]/g, '')
 )
 
-const TAG_LABELS: Record<string, string> = {
-  balneaire: '🏖️ Balnéaire',
-  randonnee: '🥾 Randonnée',
-  tourisme: '🏛️ Tourisme',
-  montagne: '⛰️ Montagne',
+const TAG_EMOJIS: Record<CityTag, string> = {
+  balneaire: '🏖️',
+  randonnee: '🥾',
+  tourisme: '🏛️',
+  montagne: '⛰️',
 }
+
+// computed : les libellés doivent suivre le changement de langue
+const TAG_LABELS = computed<Record<string, string>>(() =>
+  Object.fromEntries(
+    (Object.keys(TAG_EMOJIS) as CityTag[]).map(tag => [tag, `${TAG_EMOJIS[tag]} ${t(`tag.${tag}`)}`]),
+  ),
+)
 
 // Labels pays
 const countryLabels: Record<string, string> = {
@@ -114,21 +123,21 @@ const countryLabels: Record<string, string> = {
           class="text-xs border"
           style="background-color: rgb(var(--badge-warm-bg)); color: rgb(var(--badge-warm-text)); border-color: rgb(var(--badge-warm-border));"
         >
-          🌡️ Température
+          🌡️ {{ t('badge.temperature') }}
         </Badge>
         <Badge
           v-if="hasEconomeBadge"
           class="text-xs border"
           style="background-color: rgb(var(--badge-eco-bg)); color: rgb(var(--badge-eco-text)); border-color: rgb(var(--badge-eco-border));"
         >
-          🚗 Économe
+          🚗 {{ t('badge.eco') }}
         </Badge>
         <Badge
           v-if="hasSoleilBadge"
           class="text-xs border"
           style="background-color: rgb(var(--badge-sun-bg)); color: rgb(var(--badge-sun-text)); border-color: rgb(var(--badge-sun-border));"
         >
-          ☀️ Soleil
+          ☀️ {{ t('badge.sun') }}
         </Badge>
       </div>
 
@@ -139,7 +148,7 @@ const countryLabels: Record<string, string> = {
 
       <!-- Température moyenne -->
       <div class="flex items-center gap-2">
-        <span class="text-sm" style="color: rgb(var(--color-text-muted))">Moy. :</span>
+        <span class="text-sm" style="color: rgb(var(--color-text-muted))">{{ t('card.avg') }}</span>
         <span class="font-semibold text-sm" style="color: rgb(var(--color-accent))">{{ displayTemp }}°C</span>
       </div>
 
@@ -195,7 +204,7 @@ const countryLabels: Record<string, string> = {
 
       <!-- Distance (si disponible) -->
       <p v-if="ville.distance !== undefined" class="text-xs" style="color: rgb(var(--color-text-muted))">
-        {{ Math.round(ville.distance) }} km
+        {{ Math.round(ville.distance) }} {{ t('common.km') }}
       </p>
 
     </CardContent>

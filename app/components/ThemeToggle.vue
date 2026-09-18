@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const colorMode = useColorMode()
+const { t } = useI18n()
 
 // En mode 2 états : alterne entre 'light' et 'dark'.
 // Au premier chargement, colorMode.preference est 'system' → on suit l'OS.
@@ -18,7 +19,7 @@ const isDark = computed(() => colorMode.value === 'dark')
       color: 'rgb(var(--color-text-muted))',
       background: 'transparent',
     }"
-    :title="isDark ? 'Passer en mode clair' : 'Passer en mode sombre'"
+    :title="isDark ? t('theme.toLight') : t('theme.toDark')"
     @click="toggle"
   >
     <!-- Soleil (mode clair actif → basculer vers sombre) -->

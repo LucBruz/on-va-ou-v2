@@ -4,15 +4,21 @@ import { useWeatherStore } from '~/stores/weather'
 import CityCard from '~/components/CityCard.vue'
 import { Button } from '@/components/ui/button'
 
-const SORT_OPTIONS: Array<{ key: 'nom' | 'pays' | 'temperature' | 'soleil' | 'proximite'; label: string }> = [
-  { key: 'nom', label: 'Nom' },
-  { key: 'pays', label: 'Pays' },
-  { key: 'temperature', label: 'Température' },
-  { key: 'proximite', label: 'Proximité' },
-  { key: 'soleil', label: 'Soleil' },
-]
+const SORT_KEYS = ['nom', 'pays', 'temperature', 'proximite', 'soleil'] as const
 
 const store = useWeatherStore()
+const { t } = useI18n()
+
+// computed : les libellés doivent suivre le changement de langue
+const SORT_OPTIONS = computed(() =>
+  SORT_KEYS.map(key => ({ key, label: t(`sort.${key}`) })),
+)
+
+const countLabel = computed(() => {
+  const n = displayPropositions.value.length
+  if (store.isSubmitted) return t(n > 1 ? 'results.countManyMatching' : 'results.countOneMatching', { n })
+  return t(n > 1 ? 'results.countMany' : 'results.countOne', { n })
+})
 
 onMounted(async () => {
   if (store.propositions.length === 0) {
@@ -54,7 +60,7 @@ const displayPropositions = computed(() => {
         <input
           v-model="searchQuery"
           type="text"
-          placeholder="Rechercher une ville…"
+          :placeholder="t('results.search')"
           class="w-full rounded-md border px-3 py-2 text-sm focus:outline-none focus:ring-2"
           style="background-color: rgb(var(--color-bg)); border-color: rgb(var(--color-border)); color: rgb(var(--color-text));"
         />
@@ -81,8 +87,7 @@ const displayPropositions = computed(() => {
     <div class="max-w-7xl mx-auto px-6 py-6">
       <!-- Compteur de résultats -->
       <p class="text-sm" style="color: rgb(var(--color-text-muted))">
-        {{ displayPropositions.length }} destination{{ displayPropositions.length > 1 ? 's' : '' }}
-        <template v-if="store.isSubmitted"> compatible{{ displayPropositions.length > 1 ? 's' : '' }}</template>
+        {{ countLabel }}
       </p>
 
       <!-- État vide -->
@@ -91,9 +96,9 @@ const displayPropositions = computed(() => {
         class="text-center py-16 space-y-2"
       >
         <p class="text-2xl">☁️</p>
-        <p class="font-medium" style="color: rgb(var(--color-text))">Aucune destination compatible</p>
+        <p class="font-medium" style="color: rgb(var(--color-text))">{{ t('results.emptyTitle') }}</p>
         <p class="text-sm" style="color: rgb(var(--color-text-muted))">
-          Essaie d'augmenter ta tolérance météo ou de changer les dates.
+          {{ t('results.emptyHint') }}
         </p>
       </div>
 

@@ -3,6 +3,7 @@ import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from '@/components/u
 import { Button } from '@/components/ui/button'
 
 const store = useWeatherStore()
+const { t } = useI18n()
 const drawerOpen = ref(false)
 </script>
 
@@ -37,6 +38,7 @@ const drawerOpen = ref(false)
             🌍 On va où ?
           </h1>
           <div class="flex items-center gap-1">
+            <LanguageToggle />
             <ThemeToggle />
             <Button
               variant="ghost"
@@ -44,7 +46,7 @@ const drawerOpen = ref(false)
               class="text-xs"
               @click="store.isSubmitted = false"
             >
-              ✏️ Modifier
+              ✏️ {{ t('common.edit') }}
             </Button>
           </div>
         </div>
@@ -67,11 +69,14 @@ const drawerOpen = ref(false)
           :style="{ color: 'rgb(var(--color-text))' }"
         >🌍 On va où ?</span>
         <div class="flex items-center gap-1">
+          <LanguageToggle />
           <ThemeToggle />
           <Button
             variant="ghost"
             size="sm"
             class="text-xs"
+            :title="t('common.edit')"
+            :aria-label="t('common.edit')"
             @click="store.isSubmitted = false"
           >
             ✏️
